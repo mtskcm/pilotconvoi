@@ -1,0 +1,80 @@
+---
+import '@fontsource/chakra-petch/500.css';
+import '@fontsource/chakra-petch/600.css';
+import '@fontsource/chakra-petch/700.css';
+import '@fontsource-variable/inter';
+import '../styles/global.css';
+import { locales, localePath, useTranslations, type Lang } from '../i18n';
+import { COMPANY } from '../config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+const site = Astro.site!;
+const canonical = new URL(localePath(lang), site);
+const ogImage = new URL('/og.png', site);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'LocalBusiness',
+  name: COMPANY.name,
+  slogan: COMPANY.claim,
+  description: t.meta.description,
+  url: canonical.href,
+  telephone: COMPANY.phone,
+  email: COMPANY.email,
+  image: ogImage.href,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: 'Sadová 621/54',
+    postalCode: '094 31',
+    addressLocality: 'Hanušovce nad Topľou',
+    addressCountry: 'SK',
+  },
+  openingHoursSpecification: {
+    '@type': 'OpeningHoursSpecification',
+    dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+    opens: '00:00',
+    closes: '23:59',
+  },
+  areaServed: ['SK', 'CZ', 'PL', 'HU', 'AT', 'UA'],
+};
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{t.meta.title}</title>
+    <meta name="description" content={t.meta.description} />
+    <link rel="canonical" href={canonical.href} />
+    {locales.map((l) => <link rel="alternate" hreflang={l} href={new URL(localePath(l), site).href} />)}
+    <link rel="alternate" hreflang="x-default" href={site.href} />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content={COMPANY.name} />
+    <meta property="og:title" content={t.meta.title} />
+    <meta property="og:description" content={t.meta.description} />
+    <meta property="og:url" content={canonical.href} />
+    <meta property="og:image" content={ogImage.href} />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content={lang} />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#0c0c0e" />
+    <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+  </head>
+  <body class="bg-ink font-sans text-fg antialiased">
+    <slot />
+    <script>
+      import '../scripts/main';
+    </script>
+  </body>
+</html>

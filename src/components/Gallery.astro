@@ -1,0 +1,38 @@
+---
+import { Image } from 'astro:assets';
+import { useTranslations, type Lang } from '../i18n';
+import { GALLERY } from '../config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+{
+  GALLERY.length > 0 && (
+    <section id="gallery" class="relative py-24 sm:py-32">
+      <div class="mx-auto max-w-6xl px-4 sm:px-6">
+        <p data-reveal class="mb-3 font-display text-sm font-semibold tracking-[0.25em] text-brand uppercase">
+          {t.gallery.title}
+        </p>
+        <h2 data-reveal class="font-display text-3xl font-bold sm:text-4xl">
+          {t.gallery.subtitle}
+        </h2>
+        <div data-reveal-group class="mt-14 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+          {GALLERY.map((item) => (
+            <Image
+              src={item.src}
+              alt={item.alt}
+              class="aspect-[4/3] w-full rounded-lg border border-line object-cover"
+              widths={[480, 800]}
+              sizes="(min-width: 1024px) 380px, (min-width: 640px) 50vw, 100vw"
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  )
+}

@@ -1,0 +1,12 @@
+---
+import OnePage from '../../components/OnePage.astro';
+import { defaultLang, locales, type Lang } from '../../i18n';
+
+export function getStaticPaths() {
+  return locales.filter((lang) => lang !== defaultLang).map((lang) => ({ params: { lang } }));
+}
+
+const lang = Astro.params.lang as Lang;
+---
+
+<OnePage lang={lang} />

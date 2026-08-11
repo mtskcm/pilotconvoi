@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Pilot Convoi Slovakia — pilotaż transportów ponadgabarytowych | NONSTOP 24/7",
+    "description": "Profesjonalny pilotaż transportów ponadgabarytowych i ciężkich na Słowacji i w całej UE. Załatwianie zezwoleń SK/CZ, planowanie tras. NONSTOP 24/7 — +421 907 450 919."
+  },
+  "nav": {
+    "home": "Start",
+    "services": "Usługi",
+    "about": "O nas",
+    "routes": "Trasy",
+    "gallery": "Galeria",
+    "contact": "Kontakt",
+    "language": "Język",
+    "call": "Zadzwoń"
+  },
+  "hero": {
+    "eyebrow": "Safe. Reliable. Professional.",
+    "titleTop": "Pilotaż transportów",
+    "titleAccent": "ponadgabarytowych",
+    "subtitle": "Pojazdy pilotujące dla transportów ponadgabarytowych i ciężkich na Słowacji i w całej UE. Zapewniamy płynny, bezpieczny i zgodny z przepisami przejazd Twojego ładunku.",
+    "ctaCall": "Zadzwoń teraz",
+    "ctaWrite": "Napisz do nas",
+    "badge247": "NONSTOP 24/7",
+    "badgeEu": "Słowacja + cała UE",
+    "badgePermits": "Zezwolenia SK / CZ",
+    "scroll": "Przewiń w dół"
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "subtitle": "Kompleksowa obsługa transportu ponadgabarytowego — od zezwoleń po bezpieczny przejazd.",
+    "items": [
+      {
+        "title": "Pilotaż pojazdów ponadgabarytowych",
+        "text": "Profesjonalne pojazdy pilotujące dla transportów ponadgabarytowych i ciężkich na Słowacji, w Czechach i w całej UE. Bezpiecznie, niezawodnie i zgodnie z przepisami."
+      },
+      {
+        "title": "Załatwianie zezwoleń (SK / CZ)",
+        "text": "Kompleksowe załatwianie zezwoleń na transport ponadgabarytowy wraz z komunikacją z urzędami. Ty dbasz o ładunek, my o formalności."
+      },
+      {
+        "title": "Planowanie trasy",
+        "text": "Zaproponujemy optymalną trasę, sprawdzimy przejezdność mostów i wiaduktów oraz zadbamy o sprawny przebieg całego transportu."
+      }
+    ]
+  },
+  "about": {
+    "title": "O nas",
+    "text1": "Pilot Convoi Slovakia specjalizuje się w pilotażu transportów ponadgabarytowych i ciężkich. Nasi doświadczeni i niezawodni piloci zapewnią bezpieczną i płynną jazdę Twoich pojazdów — jesteśmy partnerem, na którym przewoźnicy zawsze mogą polegać.",
+    "text2": "Stawiamy na precyzję, profesjonalizm i indywidualne podejście do każdego klienta. Każdy transport przygotowujemy z wyprzedzeniem — od trasy przez zezwolenia aż po sam przejazd.",
+    "stats": [
+      { "value": "24/7", "label": "dostępność non stop" },
+      { "value": "SK + UE", "label": "obszar działania" },
+      { "value": "100 %", "label": "indywidualne podejście" }
+    ]
+  },
+  "routes": {
+    "title": "Gdzie jeździmy",
+    "subtitle": "Najczęstsze korytarze naszych pilotaży — od polskiej granicy na Ukrainę, do Węgier i Austrii. Jedziemy jednak wszędzie tam, gdzie potrzebuje Twój ładunek.",
+    "corridors": [
+      { "route": "Granica polska → Ukraina", "detail": "tranzyt przez całą Słowację" },
+      { "route": "Granica polska → Węgry", "detail": "przez Koszyce i południowe przejścia" },
+      { "route": "Słowacja → Austria", "detail": "kierunek Wiedeń przez Bratysławę" },
+      { "route": "Pilotaż krajowy", "detail": "wszędzie na terenie Słowacji" }
+    ],
+    "note": "Trasę i termin zawsze dostosujemy do Twojego transportu — odezwij się, a przygotujemy rozwiązanie szyte na miarę."
+  },
+  "gallery": {
+    "title": "Galeria",
+    "subtitle": "Zdjęcia i filmy z naszych pilotaży."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Potrzebujesz pilotażu lub zezwolenia na transport ponadgabarytowy? Jesteśmy do dyspozycji — non stop.",
+    "availability": "NONSTOP 24/7 — złapiesz nas o każdej porze.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "addressLabel": "Adres",
+    "whatsappCta": "Napisz na WhatsApp",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "E-mail",
+      "message": "Wiadomość",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie…",
+      "success": "Dziękujemy! Wiadomość została wysłana — odezwiemy się jak najszybciej.",
+      "error": "Nie udało się wysłać wiadomości. Zadzwoń lub napisz e-mail."
+    }
+  },
+  "footer": {
+    "rights": "Wszelkie prawa zastrzeżone."
+  }
+}

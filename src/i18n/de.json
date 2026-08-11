@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Pilot Convoi Slovakia — Begleitfahrzeuge für Schwer- und Großraumtransporte | 24/7",
+    "description": "Professionelle Begleitfahrzeuge (Pilotfahrzeuge) für Großraum- und Schwertransporte in der Slowakei und der ganzen EU. Genehmigungen SK/CZ, Routenplanung. Rund um die Uhr — +421 907 450 919."
+  },
+  "nav": {
+    "home": "Start",
+    "services": "Leistungen",
+    "about": "Über uns",
+    "routes": "Routen",
+    "gallery": "Galerie",
+    "contact": "Kontakt",
+    "language": "Sprache",
+    "call": "Anrufen"
+  },
+  "hero": {
+    "eyebrow": "Safe. Reliable. Professional.",
+    "titleTop": "Begleitfahrzeuge für",
+    "titleAccent": "Großraum- und Schwertransporte",
+    "subtitle": "Pilotfahrzeuge für Großraum- und Schwertransporte in der Slowakei und der gesamten EU. Wir sorgen für eine reibungslose, sichere und vorschriftsmäßige Durchfahrt Ihrer Ladung.",
+    "ctaCall": "Jetzt anrufen",
+    "ctaWrite": "Schreiben Sie uns",
+    "badge247": "NONSTOP 24/7",
+    "badgeEu": "Slowakei + ganze EU",
+    "badgePermits": "Genehmigungen SK / CZ",
+    "scroll": "Nach unten scrollen"
+  },
+  "services": {
+    "title": "Unsere Leistungen",
+    "subtitle": "Kompletter Service für Sondertransporte — von der Genehmigung bis zur sicheren Durchfahrt.",
+    "items": [
+      {
+        "title": "Begleitung von Sondertransporten",
+        "text": "Professionelle Begleitfahrzeuge für Großraum- und Schwertransporte in der Slowakei, Tschechien und der gesamten EU. Sicher, zuverlässig und gesetzeskonform."
+      },
+      {
+        "title": "Genehmigungen (SK / CZ)",
+        "text": "Komplette Abwicklung der Genehmigungen für Sondertransporte inklusive Kommunikation mit den Behörden. Sie kümmern sich um die Ladung, wir um den Papierkram."
+      },
+      {
+        "title": "Routenplanung",
+        "text": "Wir planen die optimale Route, prüfen die Befahrbarkeit von Brücken und Unterführungen und sorgen für einen reibungslosen Ablauf des gesamten Transports."
+      }
+    ]
+  },
+  "about": {
+    "title": "Über uns",
+    "text1": "Pilot Convoi Slovakia ist auf die Begleitung von Großraum- und Schwertransporten spezialisiert. Unsere erfahrenen und zuverlässigen Begleiter sorgen für eine sichere und reibungslose Fahrt Ihrer Fahrzeuge — ein Partner, auf den sich Spediteure jederzeit verlassen können.",
+    "text2": "Wir legen Wert auf Präzision, Professionalität und eine individuelle Betreuung jedes Kunden. Jeder Transport wird im Voraus vorbereitet — von der Route über die Genehmigungen bis zur Durchfahrt selbst.",
+    "stats": [
+      { "value": "24/7", "label": "nonstop erreichbar" },
+      { "value": "SK + EU", "label": "Einsatzgebiet" },
+      { "value": "100 %", "label": "individuelle Betreuung" }
+    ]
+  },
+  "routes": {
+    "title": "Wo wir fahren",
+    "subtitle": "Die häufigsten Korridore unserer Begleitfahrten — von der polnischen Grenze in die Ukraine, nach Ungarn und Österreich. Wir fahren aber überall dorthin, wo Ihre Ladung es braucht.",
+    "corridors": [
+      { "route": "Polnische Grenze → Ukraine", "detail": "Transit durch die ganze Slowakei" },
+      { "route": "Polnische Grenze → Ungarn", "detail": "über Košice und südliche Übergänge" },
+      { "route": "Slowakei → Österreich", "detail": "Richtung Wien über Bratislava" },
+      { "route": "Inlandsbegleitungen", "detail": "überall innerhalb der Slowakei" }
+    ],
+    "note": "Route und Termin passen wir stets Ihrem Transport an — melden Sie sich und wir erstellen eine maßgeschneiderte Lösung."
+  },
+  "gallery": {
+    "title": "Galerie",
+    "subtitle": "Fotos und Videos von unseren Begleitfahrten."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Sie brauchen eine Transportbegleitung oder eine Genehmigung für einen Sondertransport? Wir sind für Sie da — rund um die Uhr.",
+    "availability": "NONSTOP 24/7 — Sie erreichen uns jederzeit.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-Mail",
+    "addressLabel": "Adresse",
+    "whatsappCta": "Per WhatsApp schreiben",
+    "form": {
+      "name": "Vor- und Nachname",
+      "email": "E-Mail",
+      "message": "Nachricht",
+      "submit": "Nachricht senden",
+      "sending": "Wird gesendet…",
+      "success": "Vielen Dank! Ihre Nachricht wurde gesendet — wir melden uns so schnell wie möglich.",
+      "error": "Die Nachricht konnte nicht gesendet werden. Rufen Sie uns an oder schreiben Sie eine E-Mail."
+    }
+  },
+  "footer": {
+    "rights": "Alle Rechte vorbehalten."
+  }
+}

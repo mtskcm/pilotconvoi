@@ -1,0 +1,51 @@
+---
+import { useTranslations, type Lang } from '../i18n';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+
+const icons = [
+  // pilotné vozidlo / doprovod
+  `<path d="M2 16v-4a2 2 0 0 1 2-2h9l3-4h3a2 2 0 0 1 2 2v8h-2" stroke-linecap="round" stroke-linejoin="round"/>
+   <circle cx="7" cy="17" r="2"/><circle cx="17" cy="17" r="2"/>
+   <path d="M9 17h6M2 16h3" stroke-linecap="round"/>
+   <path d="M10 3h4" stroke-linecap="round" class="text-brand"/>`,
+  // povolenia / dokumenty
+  `<path d="M7 3h7l4 4v14H7z" stroke-linejoin="round"/>
+   <path d="M14 3v4h4" stroke-linejoin="round"/>
+   <path d="M10 13l2 2 4-4" stroke-linecap="round" stroke-linejoin="round"/>`,
+  // plánovanie trasy
+  `<path d="M5 20a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+   <path d="M19 8a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"/>
+   <path d="M6.5 18.5 C 10 16, 8 12, 12 11 S 17 9, 17.8 6.5" stroke-linecap="round" stroke-dasharray="3 3"/>`,
+];
+---
+
+<section id="services" class="relative bg-surface py-24 sm:py-32">
+  <div class="mx-auto max-w-6xl px-4 sm:px-6">
+    <p data-reveal class="mb-3 font-display text-sm font-semibold tracking-[0.25em] text-brand uppercase">
+      {t.services.title}
+    </p>
+    <h2 data-reveal class="max-w-2xl font-display text-3xl font-bold sm:text-4xl">
+      {t.services.subtitle}
+    </h2>
+
+    <div data-reveal-group class="mt-14 grid gap-6 md:grid-cols-3">
+      {
+        t.services.items.map((item, i) => (
+          <article class="group rounded-lg border border-line bg-surface-2 p-8 transition-colors hover:border-brand/60">
+            <div class="mb-6 inline-flex h-14 w-14 items-center justify-center rounded-md bg-brand/10 text-brand transition-colors group-hover:bg-brand group-hover:text-ink">
+              <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" set:html={icons[i]} />
+            </div>
+            <h3 class="mb-3 font-display text-xl font-semibold">{item.title}</h3>
+            <p class="leading-relaxed text-muted">{item.text}</p>
+          </article>
+        ))
+      }
+    </div>
+  </div>
+</section>

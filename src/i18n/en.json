@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Pilot Convoi Slovakia — Oversized Load Escort & Pilot Car Services | 24/7",
+    "description": "Professional pilot car escorts for oversized and heavy transports across Slovakia and the EU. SK/CZ permit handling, route planning. Available 24/7 — +421 907 450 919."
+  },
+  "nav": {
+    "home": "Home",
+    "services": "Services",
+    "about": "About us",
+    "routes": "Routes",
+    "gallery": "Gallery",
+    "contact": "Contact",
+    "language": "Language",
+    "call": "Call us"
+  },
+  "hero": {
+    "eyebrow": "Safe. Reliable. Professional.",
+    "titleTop": "Escort services for",
+    "titleAccent": "oversized transports",
+    "subtitle": "Pilot vehicles for oversized and heavy loads across Slovakia and the entire EU. We ensure a smooth, safe and fully compliant passage for your cargo.",
+    "ctaCall": "Call now",
+    "ctaWrite": "Write to us",
+    "badge247": "NONSTOP 24/7",
+    "badgeEu": "Slovakia + entire EU",
+    "badgePermits": "SK / CZ permits",
+    "scroll": "Scroll down"
+  },
+  "services": {
+    "title": "Our services",
+    "subtitle": "Complete service for oversized transport — from permits to a safe passage.",
+    "items": [
+      {
+        "title": "Oversized load escort",
+        "text": "Professional pilot vehicles for oversized and heavy transports in Slovakia, Czechia and across the EU. Safe, reliable and fully compliant with legislation."
+      },
+      {
+        "title": "Permit handling (SK / CZ)",
+        "text": "Complete arrangement of oversized transport permits, including all communication with the authorities. You take care of the cargo, we handle the paperwork."
+      },
+      {
+        "title": "Route planning",
+        "text": "We design the optimal route, verify clearance of bridges and underpasses and make sure the whole transport runs smoothly."
+      }
+    ]
+  },
+  "about": {
+    "title": "About us",
+    "text1": "Pilot Convoi Slovakia specialises in escorting oversized and heavy transports. Our experienced and reliable pilots ensure a safe and smooth ride for your trucks — a partner hauliers can always count on.",
+    "text2": "We put emphasis on precision, professionalism and an individual approach to every customer. Every transport is prepared in advance — from the route through permits to the passage itself.",
+    "stats": [
+      { "value": "24/7", "label": "nonstop availability" },
+      { "value": "SK + EU", "label": "area of operation" },
+      { "value": "100 %", "label": "individual approach" }
+    ]
+  },
+  "routes": {
+    "title": "Where we drive",
+    "subtitle": "The most frequent corridors of our escorts — from the Polish border to Ukraine, Hungary and Austria. But we go wherever your cargo needs to.",
+    "corridors": [
+      { "route": "Polish border → Ukraine", "detail": "transit across all of Slovakia" },
+      { "route": "Polish border → Hungary", "detail": "via Košice and southern crossings" },
+      { "route": "Slovakia → Austria", "detail": "towards Vienna via Bratislava" },
+      { "route": "Domestic escorts", "detail": "anywhere within Slovakia" }
+    ],
+    "note": "We always adapt the route and timing to your transport — get in touch and we will prepare a tailored solution."
+  },
+  "gallery": {
+    "title": "Gallery",
+    "subtitle": "Photos and videos from our escorts."
+  },
+  "contact": {
+    "title": "Contact",
+    "subtitle": "Need an escort or a permit for an oversized transport? We are here for you — around the clock.",
+    "availability": "NONSTOP 24/7 — you can reach us anytime.",
+    "phoneLabel": "Phone",
+    "emailLabel": "E-mail",
+    "addressLabel": "Address",
+    "whatsappCta": "Message us on WhatsApp",
+    "form": {
+      "name": "Full name",
+      "email": "E-mail",
+      "message": "Message",
+      "submit": "Send message",
+      "sending": "Sending…",
+      "success": "Thank you! Your message has been sent — we will get back to you as soon as possible.",
+      "error": "The message could not be sent. Please call us or send an e-mail."
+    }
+  },
+  "footer": {
+    "rights": "All rights reserved."
+  }
+}

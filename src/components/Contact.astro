@@ -1,0 +1,202 @@
+---
+import { useTranslations, type Lang } from '../i18n';
+import { COMPANY, WEB3FORMS_ACCESS_KEY } from '../config';
+
+interface Props {
+  lang: Lang;
+}
+
+const { lang } = Astro.props;
+const t = useTranslations(lang);
+---
+
+<section id="contact" class="relative overflow-hidden bg-surface py-24 sm:py-32">
+  <!-- oranžový glow ako v hero — vizuálne uzatvára stránku -->
+  <div
+    class="pointer-events-none absolute -bottom-48 left-1/2 h-[30rem] w-[50rem] -translate-x-1/2 rounded-full bg-brand/15 blur-[130px]"
+    aria-hidden="true"
+  >
+  </div>
+
+  <div class="relative mx-auto max-w-6xl px-4 sm:px-6">
+    <p data-reveal class="mb-3 font-display text-sm font-semibold tracking-[0.25em] text-brand uppercase">
+      {t.contact.title}
+    </p>
+    <h2 data-reveal class="max-w-2xl font-display text-3xl font-bold sm:text-4xl">
+      {t.contact.subtitle}
+    </h2>
+
+    <div class="mt-14 grid gap-12 lg:grid-cols-2 lg:gap-16">
+      <div data-reveal-group class="space-y-6">
+        <p
+          class="inline-flex items-center gap-2.5 rounded-full border border-brand/40 bg-brand/10 px-5 py-2.5 font-display text-sm font-semibold tracking-wide text-brand uppercase"
+        >
+          <span class="relative flex h-2.5 w-2.5" aria-hidden="true">
+            <span class="absolute inline-flex h-full w-full animate-ping rounded-full bg-brand opacity-60"></span>
+            <span class="relative inline-flex h-2.5 w-2.5 rounded-full bg-brand"></span>
+          </span>
+          {t.contact.availability}
+        </p>
+
+        <div class="space-y-5 rounded-lg border border-line bg-surface-2 p-8">
+          <div class="flex items-start gap-4">
+            <svg class="mt-1 h-5 w-5 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M12 21s-7-5.5-7-11a7 7 0 1 1 14 0c0 5.5-7 11-7 11Z"></path>
+              <circle cx="12" cy="10" r="2.5"></circle>
+            </svg>
+            <div>
+              <p class="text-sm tracking-wide text-muted uppercase">{t.contact.addressLabel}</p>
+              <p class="font-medium">{COMPANY.name}</p>
+              <p class="text-muted">{COMPANY.address}</p>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <svg class="mt-1 h-5 w-5 shrink-0 text-brand" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path
+                d="M6.6 10.8a15.5 15.5 0 0 0 6.6 6.6l2.2-2.2a1 1 0 0 1 1-.24c1.1.36 2.3.56 3.6.56a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1A17 17 0 0 1 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.24.2 2.45.56 3.58a1 1 0 0 1-.25 1.02L6.6 10.8Z"
+              ></path>
+            </svg>
+            <div>
+              <p class="text-sm tracking-wide text-muted uppercase">{t.contact.phoneLabel}</p>
+              <a href={`tel:${COMPANY.phone}`} class="text-xl font-semibold text-brand transition-colors hover:text-brand-strong">
+                {COMPANY.phoneDisplay}
+              </a>
+            </div>
+          </div>
+
+          <div class="flex items-start gap-4">
+            <svg class="mt-1 h-5 w-5 shrink-0 text-brand" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <rect x="3" y="5" width="18" height="14" rx="2"></rect>
+              <path d="m3 7 9 6 9-6"></path>
+            </svg>
+            <div>
+              <p class="text-sm tracking-wide text-muted uppercase">{t.contact.emailLabel}</p>
+              <a href={`mailto:${COMPANY.email}`} class="font-medium transition-colors hover:text-brand">{COMPANY.email}</a>
+            </div>
+          </div>
+        </div>
+
+        <a
+          href={`https://wa.me/${COMPANY.whatsapp}`}
+          target="_blank"
+          rel="noopener"
+          class="inline-flex items-center gap-3 rounded-md border border-[#25d366]/50 bg-[#25d366]/10 px-6 py-3.5 font-display font-semibold tracking-wide text-[#4ade80] uppercase transition-colors hover:bg-[#25d366]/20"
+        >
+          <svg class="h-5 w-5" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+            <path
+              d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1-.2.2-.6.8-.8 1-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4 0-.5.1-.7l.4-.5c.1-.2.2-.3.3-.5v-.5c0-.1-.6-1.4-.8-1.9-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.2s.9 2.5 1.1 2.7c.1.2 1.9 2.9 4.6 4 .6.3 1.1.5 1.5.6.6.2 1.2.2 1.7.1.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2l-.2-.4Z"
+            ></path>
+          </svg>
+          {t.contact.whatsappCta}
+        </a>
+      </div>
+
+      <form
+        data-reveal
+        id="contact-form"
+        class="space-y-5 rounded-lg border border-line bg-surface-2 p-8"
+        novalidate
+        data-msg-sending={t.contact.form.sending}
+        data-msg-success={t.contact.form.success}
+        data-msg-error={t.contact.form.error}
+      >
+        <input type="hidden" name="access_key" value={WEB3FORMS_ACCESS_KEY} />
+        <input type="hidden" name="subject" value={`Nová správa z webu — ${COMPANY.name}`} />
+        <input type="hidden" name="from_name" value={COMPANY.name} />
+        <!-- honeypot proti spamu -->
+        <input type="checkbox" name="botcheck" class="hidden" tabindex="-1" autocomplete="off" aria-hidden="true" />
+
+        <div>
+          <label for="cf-name" class="mb-1.5 block text-sm font-medium tracking-wide text-muted uppercase">
+            {t.contact.form.name}
+          </label>
+          <input
+            id="cf-name"
+            name="name"
+            type="text"
+            required
+            autocomplete="name"
+            class="w-full rounded-md border border-line bg-ink px-4 py-3 text-fg transition-colors focus:border-brand"
+          />
+        </div>
+
+        <div>
+          <label for="cf-email" class="mb-1.5 block text-sm font-medium tracking-wide text-muted uppercase">
+            {t.contact.form.email}
+          </label>
+          <input
+            id="cf-email"
+            name="email"
+            type="email"
+            required
+            autocomplete="email"
+            class="w-full rounded-md border border-line bg-ink px-4 py-3 text-fg transition-colors focus:border-brand"
+          />
+        </div>
+
+        <div>
+          <label for="cf-message" class="mb-1.5 block text-sm font-medium tracking-wide text-muted uppercase">
+            {t.contact.form.message}
+          </label>
+          <textarea
+            id="cf-message"
+            name="message"
+            rows="5"
+            required
+            class="w-full resize-y rounded-md border border-line bg-ink px-4 py-3 text-fg transition-colors focus:border-brand"></textarea>
+        </div>
+
+        <button
+          type="submit"
+          class="w-full rounded-md bg-brand px-7 py-3.5 font-display text-base font-bold tracking-wide text-ink uppercase transition-colors hover:bg-brand-strong disabled:cursor-not-allowed disabled:opacity-60"
+        >
+          {t.contact.form.submit}
+        </button>
+
+        <p data-form-status class="hidden text-sm font-medium" aria-live="polite"></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+<script>
+  const form = document.getElementById('contact-form') as HTMLFormElement | null;
+
+  if (form) {
+    const status = form.querySelector<HTMLParagraphElement>('[data-form-status]')!;
+    const submitButton = form.querySelector<HTMLButtonElement>('button[type="submit"]')!;
+    const submitLabel = submitButton.textContent;
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      if (!form.reportValidity()) return;
+
+      submitButton.disabled = true;
+      submitButton.textContent = form.dataset.msgSending ?? '…';
+      status.classList.add('hidden');
+
+      try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+          body: JSON.stringify(Object.fromEntries(new FormData(form))),
+        });
+        const result = await response.json();
+        if (!response.ok || !result.success) throw new Error(result.message);
+
+        status.textContent = form.dataset.msgSuccess ?? '';
+        status.classList.remove('hidden', 'text-red-400');
+        status.classList.add('text-brand');
+        form.reset();
+      } catch {
+        status.textContent = form.dataset.msgError ?? '';
+        status.classList.remove('hidden', 'text-brand');
+        status.classList.add('text-red-400');
+      } finally {
+        submitButton.disabled = false;
+        submitButton.textContent = submitLabel;
+      }
+    });
+  }
+</script>

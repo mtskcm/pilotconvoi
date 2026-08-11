@@ -1,0 +1,63 @@
+@import 'tailwindcss';
+
+@theme {
+  --color-brand: #ff8319;
+  --color-brand-strong: #e46f06;
+  --color-ink: #0c0c0e;
+  --color-surface: #131316;
+  --color-surface-2: #1b1b21;
+  --color-line: #2a2a32;
+  --color-fg: #f5f5f4;
+  --color-muted: #a6a6ae;
+
+  --font-display: 'Chakra Petch', ui-sans-serif, system-ui, sans-serif;
+  --font-sans: 'Inter Variable', ui-sans-serif, system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Lenis preberá scroll — natívny smooth vypnúť, inak sa bijú */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+html.lenis {
+  scroll-behavior: auto;
+}
+
+::selection {
+  background: var(--color-brand);
+  color: var(--color-ink);
+}
+
+body {
+  background: var(--color-ink);
+  color: var(--color-fg);
+}
+
+/* Sticky header má ~72 px — anchor ciele sa nesmú schovať pod neho */
+section[id],
+[id='top'] {
+  scroll-margin-top: 5rem;
+}
+
+/* Header po odscrollovaní z hero */
+#site-nav {
+  transition:
+    background-color 0.3s ease,
+    border-color 0.3s ease,
+    backdrop-filter 0.3s ease;
+  border-bottom: 1px solid transparent;
+}
+#site-nav.nav-scrolled {
+  background: color-mix(in srgb, var(--color-ink) 88%, transparent);
+  backdrop-filter: blur(12px);
+  border-bottom-color: var(--color-line);
+}
+
+:focus-visible {
+  outline: 2px solid var(--color-brand);
+  outline-offset: 2px;
+}

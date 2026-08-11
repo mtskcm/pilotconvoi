@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Pilot Convoi Slovakia — túlméretes szállítmányok kísérése | NONSTOP 24/7",
+    "description": "Professzionális kísérőjárművek túlméretes és túlsúlyos szállítmányokhoz Szlovákiában és az egész EU-ban. SK/CZ engedélyek intézése, útvonaltervezés. NONSTOP 24/7 — +421 907 450 919."
+  },
+  "nav": {
+    "home": "Kezdőlap",
+    "services": "Szolgáltatások",
+    "about": "Rólunk",
+    "routes": "Útvonalak",
+    "gallery": "Galéria",
+    "contact": "Kapcsolat",
+    "language": "Nyelv",
+    "call": "Hívjon"
+  },
+  "hero": {
+    "eyebrow": "Safe. Reliable. Professional.",
+    "titleTop": "Túlméretes szállítmányok",
+    "titleAccent": "kísérése",
+    "subtitle": "Kísérőjárművek (felvezető autók) túlméretes és túlsúlyos szállítmányokhoz Szlovákiában és az egész EU-ban. Gondoskodunk rakománya zökkenőmentes, biztonságos és előírásszerű áthaladásáról.",
+    "ctaCall": "Hívjon most",
+    "ctaWrite": "Írjon nekünk",
+    "badge247": "NONSTOP 24/7",
+    "badgeEu": "Szlovákia + egész EU",
+    "badgePermits": "SK / CZ engedélyek",
+    "scroll": "Görgessen lejjebb"
+  },
+  "services": {
+    "title": "Szolgáltatásaink",
+    "subtitle": "Teljes körű szolgáltatás túlméretes szállításhoz — az engedélyektől a biztonságos áthaladásig.",
+    "items": [
+      {
+        "title": "Túlméretes szállítmányok kísérése",
+        "text": "Professzionális kísérőjárművek túlméretes és túlsúlyos szállítmányokhoz Szlovákiában, Csehországban és az egész EU-ban. Biztonságosan, megbízhatóan, a jogszabályoknak megfelelően."
+      },
+      {
+        "title": "Engedélyek intézése (SK / CZ)",
+        "text": "Túlméretes szállítási engedélyek teljes körű intézése, beleértve a hatóságokkal való kommunikációt is. Ön a rakománnyal törődik, mi a papírmunkával."
+      },
+      {
+        "title": "Útvonaltervezés",
+        "text": "Megtervezzük az optimális útvonalat, ellenőrizzük a hidak és aluljárók járhatóságát, és gondoskodunk a szállítás zökkenőmentes lebonyolításáról."
+      }
+    ]
+  },
+  "about": {
+    "title": "Rólunk",
+    "text1": "A Pilot Convoi Slovakia túlméretes és túlsúlyos szállítmányok kísérésére specializálódott. Tapasztalt és megbízható kísérőink biztonságos és zökkenőmentes utat biztosítanak járművei számára — olyan partner vagyunk, akire a fuvarozók mindig számíthatnak.",
+    "text2": "Nagy hangsúlyt fektetünk a precizitásra, a professzionalizmusra és az egyéni hozzáállásra minden ügyfélnél. Minden szállítást előre előkészítünk — az útvonaltól az engedélyeken át magáig az áthaladásig.",
+    "stats": [
+      { "value": "24/7", "label": "nonstop elérhetőség" },
+      { "value": "SK + EU", "label": "működési terület" },
+      { "value": "100 %", "label": "egyéni hozzáállás" }
+    ]
+  },
+  "routes": {
+    "title": "Merre járunk",
+    "subtitle": "Kíséreteink leggyakoribb útvonalai — a lengyel határtól Ukrajnába, Magyarországra és Ausztriába. De oda megyünk, ahová a rakománya igényli.",
+    "corridors": [
+      { "route": "Lengyel határ → Ukrajna", "detail": "tranzit egész Szlovákián át" },
+      { "route": "Lengyel határ → Magyarország", "detail": "Kassán és a déli átkelőkön át" },
+      { "route": "Szlovákia → Ausztria", "detail": "Bécs irányába Pozsonyon át" },
+      { "route": "Belföldi kíséret", "detail": "bárhol Szlovákián belül" }
+    ],
+    "note": "Az útvonalat és az időpontot mindig az Ön szállítmányához igazítjuk — keressen minket, és személyre szabott megoldást készítünk."
+  },
+  "gallery": {
+    "title": "Galéria",
+    "subtitle": "Fotók és videók kíséreteinkről."
+  },
+  "contact": {
+    "title": "Kapcsolat",
+    "subtitle": "Kíséretre vagy engedélyre van szüksége túlméretes szállításhoz? Itt vagyunk Önnek — éjjel-nappal.",
+    "availability": "NONSTOP 24/7 — bármikor elér minket.",
+    "phoneLabel": "Telefon",
+    "emailLabel": "E-mail",
+    "addressLabel": "Cím",
+    "whatsappCta": "Írjon WhatsAppon",
+    "form": {
+      "name": "Teljes név",
+      "email": "E-mail",
+      "message": "Üzenet",
+      "submit": "Üzenet küldése",
+      "sending": "Küldés…",
+      "success": "Köszönjük! Üzenetét elküldtük — hamarosan jelentkezünk.",
+      "error": "Az üzenetet nem sikerült elküldeni. Hívjon minket vagy írjon e-mailt."
+    }
+  },
+  "footer": {
+    "rights": "Minden jog fenntartva."
+  }
+}

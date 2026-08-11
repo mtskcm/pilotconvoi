@@ -1,0 +1,92 @@
+{
+  "meta": {
+    "title": "Pilot Convoi Slovakia — doprovody nadrozmerných vozidiel | NONSTOP 24/7",
+    "description": "Profesionálne doprovody nadrozmerných a nadťažkých prepráv na Slovensku a v celej EÚ. Pilotné vozidlá, vybavenie povolení SK/CZ, plánovanie trás. NONSTOP 24/7 — +421 907 450 919."
+  },
+  "nav": {
+    "home": "Úvod",
+    "services": "Služby",
+    "about": "O nás",
+    "routes": "Trasy",
+    "gallery": "Galéria",
+    "contact": "Kontakt",
+    "language": "Jazyk",
+    "call": "Zavolať"
+  },
+  "hero": {
+    "eyebrow": "Safe. Reliable. Professional.",
+    "titleTop": "Doprovody",
+    "titleAccent": "nadrozmerných vozidiel",
+    "subtitle": "Pilotné vozidlá pre nadrozmerné a nadťažké prepravy na Slovensku a v celej EÚ. Zabezpečíme plynulý, bezpečný a spoľahlivý prejazd vášho nákladu — v súlade s platnou legislatívou.",
+    "ctaCall": "Zavolať teraz",
+    "ctaWrite": "Napíšte nám",
+    "badge247": "NONSTOP 24/7",
+    "badgeEu": "Slovensko + celá EÚ",
+    "badgePermits": "Povolenia SK / CZ",
+    "scroll": "Scrollujte nižšie"
+  },
+  "services": {
+    "title": "Naše služby",
+    "subtitle": "Kompletný servis pre nadrozmernú prepravu — od povolení až po bezpečný prejazd.",
+    "items": [
+      {
+        "title": "Doprovod nadrozmerných vozidiel",
+        "text": "Profesionálne pilotné vozidlá pre nadrozmerné a nadťažké prepravy na Slovensku, v Česku a v celej EÚ. Bezpečne, spoľahlivo a v súlade s legislatívou."
+      },
+      {
+        "title": "Vybavenie povolení (SK / CZ)",
+        "text": "Kompletné vybavenie povolení na nadrozmernú prepravu vrátane komunikácie s úradmi. Vy sa staráte o náklad, my o papierovačky."
+      },
+      {
+        "title": "Plánovanie trasy",
+        "text": "Navrhneme optimálnu trasu, preveríme prejazdnosť mostov a podjazdov a zabezpečíme hladký priebeh celej prepravy."
+      }
+    ]
+  },
+  "about": {
+    "title": "O nás",
+    "text1": "Pilot Convoi Slovakia sa špecializuje na doprovody nadrozmerných a nadťažkých prepráv. Naši skúsení a spoľahliví sprievodcovia zabezpečia bezpečnú a plynulú jazdu pre vaše nákladné vozidlá — sme partner, na ktorého sa dopravcovia môžu vždy spoľahnúť.",
+    "text2": "Dôraz kladieme na precíznosť, profesionalitu a individuálny prístup ku každému zákazníkovi. Každú prepravu pripravujeme vopred — od trasy cez povolenia až po samotný prejazd.",
+    "stats": [
+      { "value": "24/7", "label": "nonstop dostupnosť" },
+      { "value": "SK + EÚ", "label": "pôsobnosť" },
+      { "value": "100 %", "label": "individuálny prístup" }
+    ]
+  },
+  "routes": {
+    "title": "Kadiaľ jazdíme",
+    "subtitle": "Najčastejšie koridory našich doprovodov — od poľskej hranice na Ukrajinu, do Maďarska aj Rakúska. Jazdíme však všade tam, kam potrebuje váš náklad.",
+    "corridors": [
+      { "route": "Poľská hranica → Ukrajina", "detail": "tranzit cez celé Slovensko" },
+      { "route": "Poľská hranica → Maďarsko", "detail": "cez Košice a južné priechody" },
+      { "route": "Slovensko → Rakúsko", "detail": "smer Viedeň cez Bratislavu" },
+      { "route": "Vnútroštátne doprovody", "detail": "kdekoľvek v rámci SR" }
+    ],
+    "note": "Trasu a termín vždy prispôsobíme vašej preprave — ozvite sa a pripravíme riešenie na mieru."
+  },
+  "gallery": {
+    "title": "Galéria",
+    "subtitle": "Fotky a videá z našich doprovodov."
+  },
+  "contact": {
+    "title": "Kontakt",
+    "subtitle": "Potrebujete doprovod alebo povolenie na nadrozmernú prepravu? Sme tu pre vás — nonstop.",
+    "availability": "NONSTOP 24/7 — zastihnete nás kedykoľvek.",
+    "phoneLabel": "Telefón",
+    "emailLabel": "E-mail",
+    "addressLabel": "Adresa",
+    "whatsappCta": "Napísať na WhatsApp",
+    "form": {
+      "name": "Meno a priezvisko",
+      "email": "E-mail",
+      "message": "Správa",
+      "submit": "Odoslať správu",
+      "sending": "Odosielam…",
+      "success": "Ďakujeme! Vaša správa bola odoslaná — ozveme sa čo najskôr.",
+      "error": "Správu sa nepodarilo odoslať. Zavolajte nám alebo napíšte e-mail."
+    }
+  },
+  "footer": {
+    "rights": "Všetky práva vyhradené."
+  }
+}
