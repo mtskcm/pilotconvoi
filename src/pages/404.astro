@@ -1,0 +1,19 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout lang="sk">
+  <main class="flex min-h-svh flex-col items-center justify-center gap-6 px-4 text-center">
+    <p class="font-display text-7xl font-bold text-brand">404</p>
+    <h1 class="font-display text-2xl font-semibold">Stránka sa nenašla / Page not found</h1>
+    <p class="max-w-md text-muted">
+      Táto stránka neexistuje alebo bola presunutá. / This page does not exist or has been moved.
+    </p>
+    <a
+      href="/"
+      class="inline-flex items-center gap-2 rounded-md bg-brand px-7 py-3.5 font-display font-bold tracking-wide text-ink uppercase transition-colors hover:bg-brand-strong"
+    >
+      Pilot Convoi Slovakia
+    </a>
+  </main>
+</BaseLayout>

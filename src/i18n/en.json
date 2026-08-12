@@ -83,7 +83,8 @@
       "submit": "Send message",
       "sending": "Sending…",
       "success": "Thank you! Your message has been sent — we will get back to you as soon as possible.",
-      "error": "The message could not be sent. Please call us or send an e-mail."
+      "error": "The message could not be sent. Please call us or send an e-mail.",
+      "privacy": "By submitting this form you consent to the processing of your personal data for the purpose of handling your request."
     }
   },
   "footer": {

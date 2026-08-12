@@ -13,7 +13,7 @@ const t = useTranslations(lang);
 <section id="contact" class="relative overflow-hidden bg-surface py-24 sm:py-32">
   <!-- oranžový glow ako v hero — vizuálne uzatvára stránku -->
   <div
-    class="pointer-events-none absolute -bottom-48 left-1/2 h-[30rem] w-[50rem] -translate-x-1/2 rounded-full bg-brand/15 blur-[130px]"
+    class="pointer-events-none absolute -bottom-64 left-1/2 h-[40rem] w-[64rem] -translate-x-1/2 bg-[radial-gradient(closest-side,rgba(255,131,25,0.16),transparent)]"
     aria-hidden="true"
   >
   </div>
@@ -153,6 +153,8 @@ const t = useTranslations(lang);
         >
           {t.contact.form.submit}
         </button>
+
+        <p class="text-xs leading-relaxed text-muted/80">{t.contact.form.privacy}</p>
 
         <p data-form-status class="hidden text-sm font-medium" aria-live="polite"></p>
       </form>

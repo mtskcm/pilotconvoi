@@ -62,14 +62,15 @@ if (!prefersReducedMotion) {
     });
   });
 
-  // jednotlivé prvky
+  // jednotlivé prvky — svižne a so skorým triggerom, aby pri rýchlom scrolle
+  // nepôsobili ako "zmiznutý" obsah
   gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach((el) => {
     gsap.from(el, {
       autoAlpha: 0,
-      y: 36,
-      duration: 0.9,
+      y: 24,
+      duration: 0.55,
       ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 82%' },
+      scrollTrigger: { trigger: el, start: 'top 92%' },
     });
   });
 
@@ -77,11 +78,11 @@ if (!prefersReducedMotion) {
   document.querySelectorAll<HTMLElement>('[data-reveal-group]').forEach((group) => {
     gsap.from(group.children, {
       autoAlpha: 0,
-      y: 36,
-      duration: 0.75,
-      stagger: 0.12,
+      y: 24,
+      duration: 0.5,
+      stagger: 0.09,
       ease: 'power2.out',
-      scrollTrigger: { trigger: group, start: 'top 80%' },
+      scrollTrigger: { trigger: group, start: 'top 90%' },
     });
   });
 

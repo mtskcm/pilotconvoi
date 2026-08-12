@@ -30,7 +30,12 @@ const badges = [t.hero.badge247, t.hero.badgeEu, t.hero.badgePermits];
     <!-- stmavenie zľava, nech je text čitateľný aj nad svetlými časťami fotky -->
     <div class="absolute inset-0 bg-gradient-to-r from-ink via-ink/65 to-ink/25"></div>
     <div class="absolute inset-x-0 bottom-0 h-40 bg-gradient-to-t from-ink to-transparent"></div>
-    <div data-glow class="absolute -bottom-40 -left-24 h-[28rem] w-[28rem] rounded-full bg-brand/15 blur-[120px]"></div>
+    <!-- glow cez radial-gradient (nie blur filter — ten na mobiloch vykresľuje hranaté okraje) -->
+    <div
+      data-glow
+      class="absolute -bottom-52 -left-32 h-[40rem] w-[40rem] bg-[radial-gradient(closest-side,rgba(255,131,25,0.18),transparent)]"
+    >
+    </div>
     <!-- výstražné šrafovanie ako jemný akcent na spodku hero -->
     <div
       class="absolute inset-x-0 bottom-0 h-2 bg-[repeating-linear-gradient(-45deg,var(--color-brand)_0_16px,transparent_16px_32px)] opacity-60"

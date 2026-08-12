@@ -83,7 +83,8 @@
       "submit": "Wyślij wiadomość",
       "sending": "Wysyłanie…",
       "success": "Dziękujemy! Wiadomość została wysłana — odezwiemy się jak najszybciej.",
-      "error": "Nie udało się wysłać wiadomości. Zadzwoń lub napisz e-mail."
+      "error": "Nie udało się wysłać wiadomości. Zadzwoń lub napisz e-mail.",
+      "privacy": "Wysyłając formularz, wyrażasz zgodę na przetwarzanie Twoich danych osobowych w celu obsługi zapytania."
     }
   },
   "footer": {

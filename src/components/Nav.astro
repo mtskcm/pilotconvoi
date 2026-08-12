@@ -23,7 +23,14 @@ const links = [
 <header id="site-nav" class="fixed inset-x-0 top-0 z-50">
   <div class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-4 sm:px-6">
     <a href="#top" class="shrink-0" aria-label={COMPANY.name}>
-      <Image src={logoWide} alt={COMPANY.name} class="h-8 w-auto sm:h-9" widths={[320, 480]} sizes="245px" />
+      <Image
+        src={logoWide}
+        alt={COMPANY.name}
+        class="h-6 w-auto min-[420px]:h-8 sm:h-9"
+        widths={[320, 480]}
+        sizes="245px"
+        loading="eager"
+      />
     </a>
 
     <nav class="hidden items-center gap-7 lg:flex" aria-label="Main">

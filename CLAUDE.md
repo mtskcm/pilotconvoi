@@ -60,5 +60,13 @@ build command `npm run build`, output `dist`, žiadne env premenné netreba.
 ## Otvorené úlohy
 
 - [ ] Web3Forms access key (čaká sa na registráciu suseda)
-- [ ] Reálne fotky/videá do galérie a prípadne hero (dodá sused)
+- [ ] Reálne fotky/videá do galérie (dodá sused); hero už má fotku pilotných áut
 - [ ] Vlastná doména → aktualizovať `astro.config.mjs` + `robots.txt`
+- [ ] **IČO/DIČ + právna forma od suseda** — podľa §3a Obchodného zákonníka má web obsahovať
+  obchodné meno, sídlo, IČO a údaj o zápise v registri → doplniť do pätičky
+- [ ] Google Business Profile (business.google.com) — založí/overí sused; kľúčové pre panel
+  vpravo vo vyhľadávaní a Google Maps; kategória „Dopravná služba", otváracie hodiny 24/7, fotky, recenzie
+- [ ] Google Search Console — po nasadení domény pridať property + odoslať sitemap
+- [ ] Zvážiť FAQ sekciu s FAQPage schema (SEO + AI odpovede)
+- [ ] Starý Webnode web zrušiť/presmerovať na novú doménu (duplicitný obsah)
+- [ ] Voliteľné: Cloudflare Web Analytics (zadarmo, bez cookies — zapína sa v CF dashboarde)

@@ -83,7 +83,8 @@
       "submit": "Odoslať správu",
       "sending": "Odosielam…",
       "success": "Ďakujeme! Vaša správa bola odoslaná — ozveme sa čo najskôr.",
-      "error": "Správu sa nepodarilo odoslať. Zavolajte nám alebo napíšte e-mail."
+      "error": "Správu sa nepodarilo odoslať. Zavolajte nám alebo napíšte e-mail.",
+      "privacy": "Odoslaním formulára súhlasíte so spracovaním vašich osobných údajov na účely vybavenia vašej požiadavky."
     }
   },
   "footer": {

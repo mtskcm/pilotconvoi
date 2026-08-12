@@ -83,7 +83,8 @@
       "submit": "Nachricht senden",
       "sending": "Wird gesendet…",
       "success": "Vielen Dank! Ihre Nachricht wurde gesendet — wir melden uns so schnell wie möglich.",
-      "error": "Die Nachricht konnte nicht gesendet werden. Rufen Sie uns an oder schreiben Sie eine E-Mail."
+      "error": "Die Nachricht konnte nicht gesendet werden. Rufen Sie uns an oder schreiben Sie eine E-Mail.",
+      "privacy": "Mit dem Absenden des Formulars stimmen Sie der Verarbeitung Ihrer personenbezogenen Daten zur Bearbeitung Ihrer Anfrage zu."
     }
   },
   "footer": {
