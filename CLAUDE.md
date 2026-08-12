@@ -95,4 +95,5 @@ build command `npm run build`, output `dist`, žiadne env premenné netreba.
 - [ ] Google Search Console — po nasadení domény pridať property + odoslať sitemap
 - [ ] Zvážiť FAQ sekciu s FAQPage schema (SEO + AI odpovede)
 - [ ] Starý Webnode web zrušiť/presmerovať na novú doménu (duplicitný obsah)
-- [ ] Voliteľné: Cloudflare Web Analytics (zadarmo, bez cookies — zapína sa v CF dashboarde)
+- [x] Cloudflare Web Analytics zapnuté (12.8.2026) — beacon injektuje CF automaticky,
+  štatistiky: CF dashboard → projekt pilotconvoi → Metrics
