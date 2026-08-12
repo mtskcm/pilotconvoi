@@ -57,13 +57,39 @@ Repo: https://github.com/mtskcm/pilotconvoi — push na `main` = automatický de
 Nastavenie v Cloudflare dashboarde: Workers & Pages → Create → Pages → Connect to Git →
 build command `npm run build`, output `dist`, žiadne env premenné netreba.
 
+## Návody pre suseda / používateľa
+
+### Web3Forms (aktivácia formulára)
+1. Otvoriť https://web3forms.com → „Create your Access Key"
+2. Zadať e-mail **lubek@pcs.sk** (tam budú chodiť správy) → potvrdiť odkaz v e-maili
+3. Skopírovať Access Key (UUID tvar) a vložiť do `src/config.ts` namiesto
+   `REPLACE_WITH_WEB3FORMS_ACCESS_KEY`, potom build + deploy
+4. Otestovať odoslaním skúšobnej správy z webu
+
+### Google Search Console (po pripojení domény)
+1. https://search.google.com/search-console → Add property → typ **Domain** → zadať doménu
+2. Overenie cez DNS TXT záznam — keďže DNS bude v Cloudflare, záznam sa pridá v CF dashboarde (DNS → Add record → TXT)
+3. Po overení: Sitemaps → odoslať `https://<domena>/sitemap-index.xml`
+4. O pár dní skontrolovať Coverage/Pages — má byť zaindexovaných 6 stránok (jazykové verzie)
+
+### Cloudflare Web Analytics (zadarmo, bez cookies)
+1. CF dashboard → Workers & Pages → projekt **pilotconvoi** → záložka **Metrics/Analytics**
+2. „Enable Web Analytics" — beacon skript sa injektuje automaticky, netreba meniť kód
+3. Štatistiky potom v dashboarde: Analytics & Logs → Web Analytics
+
+### Google Business Profile (panel vpravo vo vyhľadávaní + Mapy)
+1. https://business.google.com → Add business → „Pilot Convoi Slovakia"
+2. Kategória „Dopravná služba", adresa Sadová 621/54, Hanušovce nad Topľou, tel. +421 907 450 919,
+   hodiny 24/7, web URL
+3. Overenie (pošta/telefón/video) → po overení nahrať fotky áut a pýtať recenzie od zákazníkov
+
 ## Otvorené úlohy
 
 - [ ] Web3Forms access key (čaká sa na registráciu suseda)
 - [ ] Reálne fotky/videá do galérie (dodá sused); hero už má fotku pilotných áut
 - [ ] Vlastná doména → aktualizovať `astro.config.mjs` + `robots.txt`
-- [ ] **IČO/DIČ + právna forma od suseda** — podľa §3a Obchodného zákonníka má web obsahovať
-  obchodné meno, sídlo, IČO a údaj o zápise v registri → doplniť do pätičky
+- [x] IČO/DIČ doplnené (z FinStatu): Pilot Convoi Slovakia, s. r. o., IČO 56184981,
+  DIČ 2122232629, IČ DPH SK2122232629 (§4, od 1.5.2024) — v pätičke aj JSON-LD
 - [ ] Google Business Profile (business.google.com) — založí/overí sused; kľúčové pre panel
   vpravo vo vyhľadávaní a Google Maps; kategória „Dopravná služba", otváracie hodiny 24/7, fotky, recenzie
 - [ ] Google Search Console — po nasadení domény pridať property + odoslať sitemap

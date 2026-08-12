@@ -62,15 +62,15 @@ if (!prefersReducedMotion) {
     });
   });
 
-  // jednotlivé prvky — svižne a so skorým triggerom, aby pri rýchlom scrolle
-  // nepôsobili ako "zmiznutý" obsah
+  // jednotlivé prvky — viditeľný fade-up, ale trigger dosť skoro,
+  // aby pri rýchlom scrolle obsah nepôsobil "zmiznuto"
   gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach((el) => {
     gsap.from(el, {
       autoAlpha: 0,
-      y: 24,
-      duration: 0.55,
+      y: 30,
+      duration: 0.75,
       ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 92%' },
+      scrollTrigger: { trigger: el, start: 'top 88%' },
     });
   });
 
@@ -78,31 +78,29 @@ if (!prefersReducedMotion) {
   document.querySelectorAll<HTMLElement>('[data-reveal-group]').forEach((group) => {
     gsap.from(group.children, {
       autoAlpha: 0,
-      y: 24,
-      duration: 0.5,
-      stagger: 0.09,
+      y: 30,
+      duration: 0.65,
+      stagger: 0.12,
       ease: 'power2.out',
-      scrollTrigger: { trigger: group, start: 'top 90%' },
+      scrollTrigger: { trigger: group, start: 'top 86%' },
     });
   });
 
-  // "kreslenie" trás v SVG diagrame, naviazané na scroll
-  document.querySelectorAll<SVGPathElement>('[data-draw]').forEach((path) => {
-    const length = path.getTotalLength();
-    gsap.fromTo(
-      path,
-      { strokeDasharray: length, strokeDashoffset: length },
-      {
-        strokeDashoffset: 0,
-        ease: 'none',
-        scrollTrigger: {
-          trigger: path.closest('svg'),
-          start: 'top 78%',
-          end: 'center 45%',
-          scrub: 1,
-        },
-      },
-    );
+  // "kreslenie" trás v SVG diagrame — spustí sa samo, keď mapa príde do záberu
+  document.querySelectorAll<SVGSVGElement>('svg:has([data-draw])').forEach((svg) => {
+    const paths = svg.querySelectorAll<SVGPathElement>('[data-draw]');
+    const tl = gsap.timeline({
+      scrollTrigger: { trigger: svg, start: 'top 80%' },
+    });
+    paths.forEach((path, i) => {
+      const length = path.getTotalLength();
+      tl.fromTo(
+        path,
+        { strokeDasharray: length, strokeDashoffset: length },
+        { strokeDashoffset: 0, duration: 1.1, ease: 'power1.inOut' },
+        i * 0.22,
+      );
+    });
   });
 
   // jemná paralaxa hero glow vrstiev

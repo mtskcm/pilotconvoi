@@ -22,6 +22,9 @@ const year = new Date().getFullYear();
       {COMPANY.address} · <a href={`tel:${COMPANY.phone}`} class="transition-colors hover:text-brand">{COMPANY.phoneDisplay}</a> ·
       <a href={`mailto:${COMPANY.email}`} class="transition-colors hover:text-brand">{COMPANY.email}</a>
     </p>
+    <p class="text-sm text-muted/80">
+      {COMPANY.legalName} · IČO: {COMPANY.ico} · DIČ: {COMPANY.dic} · IČ DPH: {COMPANY.icdph}
+    </p>
     <p class="text-sm text-muted/70">
       © {year}
       {COMPANY.name}. {t.footer.rights}

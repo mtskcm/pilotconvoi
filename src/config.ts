@@ -1,5 +1,9 @@
 export const COMPANY = {
   name: 'Pilot Convoi Slovakia',
+  legalName: 'Pilot Convoi Slovakia, s. r. o.',
+  ico: '56184981',
+  dic: '2122232629',
+  icdph: 'SK2122232629',
   claim: 'Safe. Reliable. Professional.',
   phone: '+421907450919',
   phoneDisplay: '+421 907 450 919',
