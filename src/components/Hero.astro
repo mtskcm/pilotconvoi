@@ -42,9 +42,10 @@ const badges = [t.hero.badge247, t.hero.badgeEu, t.hero.badgePermits];
     <p data-reveal class="mb-4 font-display text-sm font-semibold tracking-[0.25em] text-brand uppercase">
       {t.hero.eyebrow}
     </p>
+    <!-- plynulá veľkosť písma: aj najdlhšie slová (PL/DE) sa zmestia celé, bez delenia -->
     <h1
       data-reveal
-      class="max-w-4xl font-display text-3xl leading-tight font-bold break-words hyphens-auto uppercase min-[440px]:text-4xl sm:text-6xl lg:text-7xl"
+      class="max-w-4xl font-display text-[clamp(1.5rem,7.5vw,2.25rem)] leading-tight font-bold uppercase sm:text-5xl md:text-6xl lg:text-7xl"
     >
       {t.hero.titleTop}
       <span class="text-brand">{t.hero.titleAccent}</span>
