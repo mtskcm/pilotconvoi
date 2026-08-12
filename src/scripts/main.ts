@@ -32,14 +32,8 @@ document.querySelectorAll('[data-menu-link]').forEach((link) => {
   link.addEventListener('click', () => setMenu(false));
 });
 
-/* ---------- prepínač jazykov: zachovať #kotvu + zavrieť po kliknutí mimo ---------- */
+/* ---------- prepínač jazykov: zavrieť po kliknutí mimo (odkazy vedú na začiatok stránky) ---------- */
 const langMenu = document.querySelector<HTMLDetailsElement>('[data-lang-menu]');
-document.querySelectorAll<HTMLAnchorElement>('[data-lang-link]').forEach((link) => {
-  link.addEventListener('click', () => {
-    const base = link.getAttribute('href')?.split('#')[0] ?? '/';
-    link.href = base + window.location.hash;
-  });
-});
 document.addEventListener('click', (e) => {
   if (langMenu?.open && !langMenu.contains(e.target as Node)) langMenu.open = false;
 });
@@ -62,7 +56,9 @@ if (!prefersReducedMotion) {
       if (!target) return;
       e.preventDefault();
       history.pushState(null, '', id);
-      lenis.scrollTo(target as HTMLElement, { offset: -72, duration: 1.1 });
+      // offset 0: hrana sekcie sadne na vrch viewportu (schová sa pod fixný header),
+      // sekcia tak pekne vyplní celú obrazovku
+      lenis.scrollTo(target as HTMLElement, { offset: 0, duration: 1.1 });
     });
   });
 

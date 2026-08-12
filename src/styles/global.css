@@ -35,12 +35,8 @@ html.lenis {
 body {
   background: var(--color-ink);
   color: var(--color-fg);
-}
-
-/* Sticky header má ~72 px — anchor ciele sa nesmú schovať pod neho */
-section[id],
-[id='top'] {
-  scroll-margin-top: 5rem;
+  /* poistka proti horizontálnemu pretečeniu (dlhé slová, glow vrstvy) */
+  overflow-x: clip;
 }
 
 /* Header po odscrollovaní z hero */

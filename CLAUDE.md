@@ -22,6 +22,8 @@ Príkazy: `npm run dev` (dev server), `npm run build` (produkčný build do `dis
 - Logá v `src/assets/logo/` — `logo-wide-white-text.png` je pre tmavé pozadie (header/footer),
   `logo-square-black-bg.png` je zdroj pre OG obrázok (`public/og.png`)
 - Vizuál: tmavá téma s oranžovým glow (motív majáku pilotného vozidla), výstražné šrafovanie ako akcent
+- Fotky v `src/assets/photos/` — `pilot-cars-night.jpg` (2 pilotné Škodovky v noci) je pozadie hero sekcie
+  pod tmavým prekrytím; ďalšie fotky od suseda pôjdu sem
 
 ## Štruktúra
 
@@ -30,6 +32,8 @@ Príkazy: `npm run dev` (dev server), `npm run build` (produkčný build do `dis
   typ sa odvodzuje od `sk.json` (`Translation` v `src/i18n/index.ts`)
 - Stránku skladá `src/components/OnePage.astro` (Nav → Hero → Services → About → RoutesSection → Gallery → Contact → Footer)
 - Anchor ID sekcií sú jazykovo neutrálne: `#top`, `#services`, `#about`, `#routes`, `#gallery`, `#contact`
+- Anchor scroll má offset 0 (hrana sekcie sadne pod fixný header — sekcia vyplní obrazovku);
+  prepnutie jazyka vedie vždy na začiatok stránky (žiadne prenášanie #kotvy)
 - Firemné údaje (telefón, e-mail, adresa) sú **len** v `src/config.ts` — nikde ich nehardcoduj
 
 ## Dôležité detaily
