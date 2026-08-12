@@ -42,7 +42,7 @@ document.addEventListener('click', (e) => {
 if (!prefersReducedMotion) {
   gsap.registerPlugin(ScrollTrigger);
 
-  const lenis = new Lenis({ lerp: 0.12 });
+  const lenis = new Lenis({ lerp: 0.16 });
   lenis.on('scroll', ScrollTrigger.update);
   gsap.ticker.add((time) => lenis.raf(time * 1000));
   gsap.ticker.lagSmoothing(0);
@@ -62,15 +62,15 @@ if (!prefersReducedMotion) {
     });
   });
 
-  // jednotlivé prvky — viditeľný fade-up, ale trigger dosť skoro,
-  // aby pri rýchlom scrolle obsah nepôsobil "zmiznuto"
+  // jednotlivé prvky — fade-up pri scrolle dole, pri scrolle naspäť sa vráti,
+  // takže animácie žijú oboma smermi (aj po refreshi uprostred stránky)
   gsap.utils.toArray<HTMLElement>('[data-reveal]').forEach((el) => {
     gsap.from(el, {
       autoAlpha: 0,
       y: 30,
       duration: 0.75,
       ease: 'power2.out',
-      scrollTrigger: { trigger: el, start: 'top 88%' },
+      scrollTrigger: { trigger: el, start: 'top 88%', toggleActions: 'play none none reverse' },
     });
   });
 
@@ -82,23 +82,24 @@ if (!prefersReducedMotion) {
       duration: 0.65,
       stagger: 0.12,
       ease: 'power2.out',
-      scrollTrigger: { trigger: group, start: 'top 86%' },
+      scrollTrigger: { trigger: group, start: 'top 86%', toggleActions: 'play none none reverse' },
     });
   });
 
-  // "kreslenie" trás v SVG diagrame — spustí sa samo, keď mapa príde do záberu
+  // "kreslenie" trás v SVG diagrame — priamo naviazané na scroll (scrollytelling):
+  // čím hlbšie scrolluješ, tým viac trás je vykreslených; pri scrolle späť sa odkresľujú
   document.querySelectorAll<SVGSVGElement>('svg:has([data-draw])').forEach((svg) => {
     const paths = svg.querySelectorAll<SVGPathElement>('[data-draw]');
     const tl = gsap.timeline({
-      scrollTrigger: { trigger: svg, start: 'top 80%' },
+      scrollTrigger: { trigger: svg, start: 'top 85%', end: 'bottom 55%', scrub: 0.7 },
     });
     paths.forEach((path, i) => {
       const length = path.getTotalLength();
       tl.fromTo(
         path,
         { strokeDasharray: length, strokeDashoffset: length },
-        { strokeDashoffset: 0, duration: 1.1, ease: 'power1.inOut' },
-        i * 0.22,
+        { strokeDashoffset: 0, duration: 1, ease: 'none' },
+        i * 0.35,
       );
     });
   });
