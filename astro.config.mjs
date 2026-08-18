@@ -3,9 +3,8 @@ import { defineConfig } from 'astro/config';
 import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
-// TODO: po kúpe vlastnej domény zmeniť `site` (ovplyvňuje sitemap, canonical a hreflang URL)
 export default defineConfig({
-  site: 'https://pilotconvoi.pages.dev',
+  site: 'https://pilotconvoislovakia.sk',
   // predbežné načítanie jazykových verzií, aby prepnutie jazyka bolo svižné
   prefetch: { prefetchAll: true, defaultStrategy: 'viewport' },
   integrations: [sitemap()],
