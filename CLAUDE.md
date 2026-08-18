@@ -87,9 +87,10 @@ build command `npm run build`, output `dist`, žiadne env premenné netreba.
 
 - [ ] Web3Forms access key (čaká sa na registráciu suseda)
 - [ ] Reálne fotky/videá do galérie (dodá sused); hero už má fotku pilotných áut
-- [x] Doména **pilotconvoislovakia.sk** (kúpená na Websupporte) — `site` + robots.txt prepnuté,
-  apex aj www pridané k Pages projektu cez API (18.8.2026); čaká sa na presun nameserverov
-  z Websupportu na Cloudflare (robí používateľ v dashboardoch)
+- [x] Doména **pilotconvoislovakia.sk** je ŽIVÁ (18.8.2026) — DNS na Cloudflare (registrátor Websupport),
+  apex + www pripojené k Pages, HTTPS aktívne, overených všetkých 6 jazykov.
+  Pozn.: ak sa Pages custom domain zasekne v "pending", pomôže DELETE + POST domény cez API
+  (validácia prebehne hneď, keď už zóna na účte existuje)
 - [x] IČO/DIČ doplnené (z FinStatu): Pilot Convoi Slovakia, s. r. o., IČO 56184981,
   DIČ 2122232629, IČ DPH SK2122232629 (§4, od 1.5.2024) — v pätičke aj JSON-LD
 - [ ] Google Business Profile (business.google.com) — založí/overí sused; kľúčové pre panel
