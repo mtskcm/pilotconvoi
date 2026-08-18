@@ -1,7 +1,7 @@
 {
   "meta": {
-    "title": "Pilot Convoi Slovakia — doprovody nadrozmerných vozidiel | NONSTOP 24/7",
-    "description": "Profesionálne doprovody nadrozmerných a nadťažkých prepráv na Slovensku a v celej EÚ. Pilotné vozidlá, vybavenie povolení SK/CZ, plánovanie trás. NONSTOP 24/7 — +421 907 450 919."
+    "title": "Pilot Convoi Slovakia — doprovod nadrozmernej prepravy | NONSTOP 24/7",
+    "description": "Profesionálny doprovod nadrozmerných a nadmerných prepráv na Slovensku a v celej EÚ. Sprievodné vozidlá, vybavenie povolení SK/CZ, plánovanie trás. NONSTOP 24/7 — +421 907 450 919."
   },
   "nav": {
     "home": "Úvod",
@@ -15,9 +15,9 @@
   },
   "hero": {
     "eyebrow": "Safe. Reliable. Professional.",
-    "titleTop": "Doprovody",
-    "titleAccent": "nadrozmerných vozidiel",
-    "subtitle": "Pilotné vozidlá pre nadrozmerné a nadťažké prepravy na Slovensku a v celej EÚ. Zabezpečíme plynulý, bezpečný a spoľahlivý prejazd vášho nákladu — v súlade s platnou legislatívou.",
+    "titleTop": "Doprovod",
+    "titleAccent": "nadrozmernej prepravy",
+    "subtitle": "Sprievodné vozidlá pre nadrozmerné a nadmerné prepravy na Slovensku aj v celej EÚ. Váš náklad prevedieme bezpečne, plynulo a v súlade s platnou legislatívou.",
     "ctaCall": "Zavolať teraz",
     "ctaWrite": "Napíšte nám",
     "badge247": "NONSTOP 24/7",
@@ -30,32 +30,32 @@
     "subtitle": "Kompletný servis pre nadrozmernú prepravu — od povolení až po bezpečný prejazd.",
     "items": [
       {
-        "title": "Doprovod nadrozmerných vozidiel",
-        "text": "Profesionálne pilotné vozidlá pre nadrozmerné a nadťažké prepravy na Slovensku, v Česku a v celej EÚ. Bezpečne, spoľahlivo a v súlade s legislatívou."
+        "title": "Doprovod nadrozmernej prepravy",
+        "text": "Sprievodné vozidlá so skúsenými pilotmi pre nadrozmerné a nadmerné prepravy na Slovensku, v Česku aj v celej EÚ — bezpečne, spoľahlivo a podľa predpisov."
       },
       {
         "title": "Vybavenie povolení (SK / CZ)",
-        "text": "Kompletné vybavenie povolení na nadrozmernú prepravu vrátane komunikácie s úradmi. Vy sa staráte o náklad, my o papierovačky."
+        "text": "Vybavíme všetky povolenia na nadrozmernú prepravu vrátane komunikácie s úradmi. Vy sa staráte o náklad, my o papiere."
       },
       {
         "title": "Plánovanie trasy",
-        "text": "Navrhneme optimálnu trasu, preveríme prejazdnosť mostov a podjazdov a zabezpečíme hladký priebeh celej prepravy."
+        "text": "Navrhneme optimálnu trasu, preveríme prejazdnosť mostov a podjazdov a postrážime hladký priebeh celej prepravy."
       }
     ]
   },
   "about": {
     "title": "O nás",
-    "text1": "Pilot Convoi Slovakia sa špecializuje na doprovody nadrozmerných a nadťažkých prepráv. Naši skúsení a spoľahliví sprievodcovia zabezpečia bezpečnú a plynulú jazdu pre vaše nákladné vozidlá — sme partner, na ktorého sa dopravcovia môžu vždy spoľahnúť.",
-    "text2": "Dôraz kladieme na precíznosť, profesionalitu a individuálny prístup ku každému zákazníkovi. Každú prepravu pripravujeme vopred — od trasy cez povolenia až po samotný prejazd.",
+    "text1": "Pilot Convoi Slovakia sa špecializuje na doprovod nadrozmerných a nadmerných prepráv. Naši skúsení piloti zaistia vašim súpravám bezpečný a plynulý prejazd — sme partner, na ktorého sa dopravcovia môžu kedykoľvek spoľahnúť.",
+    "text2": "Dôraz kladieme na precíznosť, profesionalitu a osobný prístup ku každému zákazníkovi. Každú prepravu pripravíme vopred — od trasy cez povolenia až po samotný prejazd.",
     "stats": [
       { "value": "24/7", "label": "nonstop dostupnosť" },
       { "value": "SK + EÚ", "label": "pôsobnosť" },
-      { "value": "100 %", "label": "individuálny prístup" }
+      { "value": "SK / CZ", "label": "vybavenie povolení" }
     ]
   },
   "routes": {
     "title": "Kadiaľ jazdíme",
-    "subtitle": "Najčastejšie koridory našich doprovodov — od poľskej hranice na Ukrajinu, do Maďarska aj Rakúska. Jazdíme však všade tam, kam potrebuje váš náklad.",
+    "subtitle": "Najčastejšie jazdíme od poľskej hranice na Ukrajinu, do Maďarska a Rakúska — ale doprovod zabezpečíme všade tam, kam smeruje váš náklad.",
     "corridors": [
       { "route": "Poľská hranica → Ukrajina", "detail": "tranzit cez celé Slovensko" },
       { "route": "Poľská hranica → Maďarsko", "detail": "cez Košice a južné priechody" },
@@ -88,6 +88,7 @@
     }
   },
   "footer": {
-    "rights": "Všetky práva vyhradené."
+    "rights": "Všetky práva vyhradené.",
+    "credit": "Web vytvoril"
   }
 }

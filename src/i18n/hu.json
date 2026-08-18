@@ -50,7 +50,7 @@
     "stats": [
       { "value": "24/7", "label": "nonstop elérhetőség" },
       { "value": "SK + EU", "label": "működési terület" },
-      { "value": "100 %", "label": "egyéni hozzáállás" }
+      { "value": "SK / CZ", "label": "engedélyek intézése" }
     ]
   },
   "routes": {
@@ -88,6 +88,7 @@
     }
   },
   "footer": {
-    "rights": "Minden jog fenntartva."
+    "rights": "Minden jog fenntartva.",
+    "credit": "A weboldalt készítette"
   }
 }

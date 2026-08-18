@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Pilot Convoi Slovakia — pilotaż transportów ponadgabarytowych | NONSTOP 24/7",
-    "description": "Profesjonalny pilotaż transportów ponadgabarytowych i ciężkich na Słowacji i w całej UE. Załatwianie zezwoleń SK/CZ, planowanie tras. NONSTOP 24/7 — +421 907 450 919."
+    "description": "Profesjonalny pilotaż transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w całej UE. Załatwianie zezwoleń SK/CZ, planowanie tras. NONSTOP 24/7 — +421 907 450 919."
   },
   "nav": {
     "home": "Start",
@@ -17,7 +17,7 @@
     "eyebrow": "Safe. Reliable. Professional.",
     "titleTop": "Pilotaż transportów",
     "titleAccent": "ponadgabarytowych",
-    "subtitle": "Pojazdy pilotujące dla transportów ponadgabarytowych i ciężkich na Słowacji i w całej UE. Zapewniamy płynny, bezpieczny i zgodny z przepisami przejazd Twojego ładunku.",
+    "subtitle": "Pojazdy pilotujące dla transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w całej UE. Zapewniamy płynny, bezpieczny i zgodny z przepisami przejazd Twojego ładunku.",
     "ctaCall": "Zadzwoń teraz",
     "ctaWrite": "Napisz do nas",
     "badge247": "NONSTOP 24/7",
@@ -31,7 +31,7 @@
     "items": [
       {
         "title": "Pilotaż pojazdów ponadgabarytowych",
-        "text": "Profesjonalne pojazdy pilotujące dla transportów ponadgabarytowych i ciężkich na Słowacji, w Czechach i w całej UE. Bezpiecznie, niezawodnie i zgodnie z przepisami."
+        "text": "Profesjonalne pojazdy pilotujące dla transportów ponadgabarytowych i ponadnormatywnych na Słowacji, w Czechach i w całej UE. Bezpiecznie, niezawodnie i zgodnie z przepisami."
       },
       {
         "title": "Załatwianie zezwoleń (SK / CZ)",
@@ -45,12 +45,12 @@
   },
   "about": {
     "title": "O nas",
-    "text1": "Pilot Convoi Slovakia specjalizuje się w pilotażu transportów ponadgabarytowych i ciężkich. Nasi doświadczeni i niezawodni piloci zapewnią bezpieczną i płynną jazdę Twoich pojazdów — jesteśmy partnerem, na którym przewoźnicy zawsze mogą polegać.",
+    "text1": "Pilot Convoi Slovakia specjalizuje się w pilotażu transportów ponadgabarytowych i ponadnormatywnych. Nasi doświadczeni i niezawodni piloci zapewnią bezpieczną i płynną jazdę Twoich pojazdów — jesteśmy partnerem, na którym przewoźnicy zawsze mogą polegać.",
     "text2": "Stawiamy na precyzję, profesjonalizm i indywidualne podejście do każdego klienta. Każdy transport przygotowujemy z wyprzedzeniem — od trasy przez zezwolenia aż po sam przejazd.",
     "stats": [
       { "value": "24/7", "label": "dostępność non stop" },
       { "value": "SK + UE", "label": "obszar działania" },
-      { "value": "100 %", "label": "indywidualne podejście" }
+      { "value": "SK / CZ", "label": "załatwianie zezwoleń" }
     ]
   },
   "routes": {
@@ -88,6 +88,7 @@
     }
   },
   "footer": {
-    "rights": "Wszelkie prawa zastrzeżone."
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "credit": "Stronę stworzył"
   }
 }

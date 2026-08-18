@@ -50,7 +50,7 @@
     "stats": [
       { "value": "24/7", "label": "nonstop erreichbar" },
       { "value": "SK + EU", "label": "Einsatzgebiet" },
-      { "value": "100 %", "label": "individuelle Betreuung" }
+      { "value": "SK / CZ", "label": "Genehmigungen" }
     ]
   },
   "routes": {
@@ -88,6 +88,7 @@
     }
   },
   "footer": {
-    "rights": "Alle Rechte vorbehalten."
+    "rights": "Alle Rechte vorbehalten.",
+    "credit": "Website erstellt von"
   }
 }
