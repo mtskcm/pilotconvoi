@@ -38,9 +38,9 @@ Príkazy: `npm run dev` (dev server), `npm run build` (produkčný build do `dis
 
 ## Dôležité detaily
 
-- **Web3Forms**: `WEB3FORMS_ACCESS_KEY` v `src/config.ts` je placeholder. Sused si má vytvoriť
-  bezplatný účet na https://web3forms.com (na lubek@pcs.sk) a kľúč sa sem vloží. Dovtedy
-  formulár po odoslaní zobrazí chybovú hlášku (telefón/e-mail fungujú vždy).
+- **Web3Forms**: `WEB3FORMS_ACCESS_KEY` v `src/config.ts` je placeholder. Access Key sa vydáva
+  na https://web3forms.com pre e-mail **pilotconvoislovakia@gmail.com** (firemný Gmail, naň chodia
+  správy z formulára). Dovtedy formulár po odoslaní zobrazí chybovú hlášku (telefón/e-mail fungujú vždy).
 - **Galéria**: `GALLERY` pole v `src/config.ts` je prázdne → sekcia aj nav odkaz sa nerenderujú.
   Keď sused dodá fotky: uložiť do `src/assets/gallery/`, importnúť a pridať do poľa — sekcia sa objaví sama.
 - **Doména**: `site` v `astro.config.mjs` je zatiaľ `https://pilotconvoi.pages.dev` a rovnaká URL

@@ -8,7 +8,7 @@ export const COMPANY = {
   phone: '+421907450919',
   phoneDisplay: '+421 907 450 919',
   whatsapp: '421907450919',
-  email: 'lubek@pcs.sk',
+  email: 'pilotconvoislovakia@gmail.com',
   address: 'Sadová 621/54, 094 31 Hanušovce nad Topľou',
 } as const;
 
