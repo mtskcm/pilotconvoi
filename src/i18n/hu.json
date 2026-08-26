@@ -90,5 +90,8 @@
   "footer": {
     "rights": "Minden jog fenntartva.",
     "credit": "A weboldalt készítette"
+  },
+  "banner": {
+    "text": "A weboldal próbaüzemben működik — a tartalom folyamatosan frissül."
   }
 }

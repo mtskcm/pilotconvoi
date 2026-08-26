@@ -90,5 +90,8 @@
   "footer": {
     "rights": "Wszelkie prawa zastrzeżone.",
     "credit": "Stronę stworzył"
+  },
+  "banner": {
+    "text": "Strona działa w trybie próbnym — treści są na bieżąco aktualizowane."
   }
 }

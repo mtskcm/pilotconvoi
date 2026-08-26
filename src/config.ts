@@ -12,6 +12,10 @@ export const COMPANY = {
   address: 'Sadová 621/54, 094 31 Hanušovce nad Topľou',
 } as const;
 
+// Kým sused ladí texty, web ukazuje banner "v skúšobnej prevádzke".
+// Po finalizácii textov prepnúť na false.
+export const SHOW_TRIAL_BANNER = true;
+
 // Web3Forms: bezplatný účet na https://web3forms.com (registrácia na lubek@pcs.sk),
 // vygenerovaný Access Key vlož sem. Kým je tu placeholder, formulár po odoslaní
 // zobrazí chybovú hlášku s telefónom/e-mailom ako náhradným kanálom.

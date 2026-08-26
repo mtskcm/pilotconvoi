@@ -90,5 +90,8 @@
   "footer": {
     "rights": "Alle Rechte vorbehalten.",
     "credit": "Website erstellt von"
+  },
+  "banner": {
+    "text": "Diese Website befindet sich im Probebetrieb — Inhalte werden laufend aktualisiert."
   }
 }

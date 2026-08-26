@@ -90,5 +90,8 @@
   "footer": {
     "rights": "Všetky práva vyhradené.",
     "credit": "Web vytvoril"
+  },
+  "banner": {
+    "text": "Web je v skúšobnej prevádzke — texty a obsah priebežne aktualizujeme."
   }
 }

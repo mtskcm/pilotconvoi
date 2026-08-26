@@ -90,5 +90,8 @@
   "footer": {
     "rights": "All rights reserved.",
     "credit": "Website by"
+  },
+  "banner": {
+    "text": "This website is in trial operation — content is being updated."
   }
 }

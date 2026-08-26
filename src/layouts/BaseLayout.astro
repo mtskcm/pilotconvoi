@@ -4,7 +4,7 @@ import '@fontsource/chakra-petch/700.css';
 import '@fontsource-variable/inter';
 import '../styles/global.css';
 import { locales, localePath, useTranslations, type Lang } from '../i18n';
-import { COMPANY } from '../config';
+import { COMPANY, SHOW_TRIAL_BANNER } from '../config';
 
 interface Props {
   lang: Lang;
@@ -85,6 +85,14 @@ const jsonLd = {
   </head>
   <body class="bg-ink font-sans text-fg antialiased">
     <slot />
+    {
+      SHOW_TRIAL_BANNER && (
+        <div class="fixed bottom-4 left-1/2 z-40 w-max max-w-[calc(100vw-2rem)] -translate-x-1/2 rounded-full border border-brand/50 bg-ink/90 px-5 py-2.5 text-center text-xs font-medium text-fg/90 shadow-lg backdrop-blur sm:text-sm">
+        <span class="mr-1.5 inline-block h-1.5 w-1.5 rounded-full bg-brand align-middle" aria-hidden="true" />
+          {t.banner.text}
+        </div>
+      )
+    }
     <script>
       import '../scripts/main';
     </script>
