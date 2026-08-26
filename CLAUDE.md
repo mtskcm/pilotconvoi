@@ -57,6 +57,16 @@ Repo: https://github.com/mtskcm/pilotconvoi — push na `main` = automatický de
 Nastavenie v Cloudflare dashboarde: Workers & Pages → Create → Pages → Connect to Git →
 build command `npm run build`, output `dist`, žiadne env premenné netreba.
 
+## ⚠️ MAINTENANCE MÓD (aktívny od 26.8.2026)
+
+Na žiadosť zákazníka je web dočasne nahradený stránkou „Pripravujeme" (`maintenance/` priečinok,
+má noindex). Plný web je nedotknutý v `src/`.
+
+- **Vypnúť web** (nasadiť maintenance): `npx wrangler pages deploy maintenance --project-name=pilotconvoi --branch=main`
+- **Zapnúť web** (obnoviť plnú verziu): `npm run build && npx wrangler pages deploy dist --project-name=pilotconvoi --branch=main`
+- Po obnovení: v Search Console dať „Vyžiadať indexovanie" pre `/` a vypnúť `SHOW_TRIAL_BANNER`
+  v `src/config.ts`, ak už budú texty finálne
+
 ## Návody pre suseda / používateľa
 
 ### Web3Forms (aktivácia formulára)

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="sk">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Pilot Convoi Slovakia — pripravujeme</title>
+    <meta name="robots" content="noindex" />
+    <link rel="icon" type="image/png" sizes="96x96" href="/favicon-96.png" />
+    <style>
+      * { margin: 0; padding: 0; box-sizing: border-box; }
+      body {
+        min-height: 100svh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: #0c0c0e;
+        color: #f5f5f4;
+        font-family: system-ui, -apple-system, sans-serif;
+        text-align: center;
+        padding: 2rem 1rem;
+        position: relative;
+        overflow: hidden;
+      }
+      .glow {
+        position: absolute;
+        left: 50%;
+        top: 60%;
+        width: 60rem;
+        height: 36rem;
+        transform: translate(-50%, -50%);
+        background: radial-gradient(closest-side, rgba(255, 131, 25, 0.16), transparent);
+        pointer-events: none;
+      }
+      main { position: relative; max-width: 34rem; }
+      img.logo { width: min(20rem, 80vw); height: auto; margin-bottom: 2.5rem; }
+      h1 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.75rem; }
+      p.sub { color: #a6a6ae; font-size: 1rem; line-height: 1.6; margin-bottom: 2rem; }
+      .contacts { display: flex; flex-direction: column; gap: 0.6rem; align-items: center; }
+      .contacts a {
+        color: #ff8319;
+        text-decoration: none;
+        font-weight: 600;
+        font-size: 1.15rem;
+      }
+      .contacts a:hover { text-decoration: underline; }
+      .stripe {
+        position: absolute;
+        left: 0; right: 0; bottom: 0;
+        height: 8px;
+        background: repeating-linear-gradient(-45deg, #ff8319 0 16px, transparent 16px 32px);
+        opacity: 0.6;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="glow" aria-hidden="true"></div>
+    <main>
+      <img class="logo" src="/logo.png" alt="Pilot Convoi Slovakia" />
+      <h1>Stránku pre vás pripravujeme</h1>
+      <p class="sub">
+        Website coming soon · Strona już wkrótce · Hamarosan · Demnächst verfügbar · Незабаром
+      </p>
+      <div class="contacts">
+        <a href="tel:+421907450919">+421 907 450 919</a>
+        <a href="mailto:pilotconvoislovakia@gmail.com">pilotconvoislovakia@gmail.com</a>
+      </div>
+    </main>
+    <div class="stripe" aria-hidden="true"></div>
+  </body>
+</html>
