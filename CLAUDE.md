@@ -64,6 +64,8 @@ má noindex). Plný web je nedotknutý v `src/`.
 
 - **Vypnúť web** (nasadiť maintenance): `npx wrangler pages deploy maintenance --project-name=pilotconvoi --branch=main`
 - **Zapnúť web** (obnoviť plnú verziu): `npm run build && npx wrangler pages deploy dist --project-name=pilotconvoi --branch=main`
+- **Preview plného webu pre klienta** (nezasahuje produkciu): `npm run build && npx wrangler pages deploy dist --project-name=pilotconvoi --branch=preview`
+  → stabilná URL: https://preview.pilotconvoi.pages.dev (posiela sa susedovi na kontrolu textov)
 - Po obnovení: v Search Console dať „Vyžiadať indexovanie" pre `/` a vypnúť `SHOW_TRIAL_BANNER`
   v `src/config.ts`, ak už budú texty finálne
 
