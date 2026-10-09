@@ -14,7 +14,7 @@ export const COMPANY = {
 
 // Kým sused ladí texty, web ukazuje banner "v skúšobnej prevádzke".
 // Po finalizácii textov prepnúť na false.
-export const SHOW_TRIAL_BANNER = true;
+export const SHOW_TRIAL_BANNER = false;
 
 // Web3Forms: bezplatný účet na https://web3forms.com (registrácia na lubek@pcs.sk),
 // vygenerovaný Access Key vlož sem. Kým je tu placeholder, formulár po odoslaní
