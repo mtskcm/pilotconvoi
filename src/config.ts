@@ -16,7 +16,7 @@ export const COMPANY = {
 // Po finalizácii textov prepnúť na false.
 export const SHOW_TRIAL_BANNER = false;
 
-// Web3Forms: bezplatný účet na https://web3forms.com (registrácia na lubek@pcs.sk),
+// Web3Forms: bezplatný účet na https://web3forms.com (registrácia na pilotconvoislovakia@gmail.com),
 // vygenerovaný Access Key vlož sem. Kým je tu placeholder, formulár po odoslaní
 // zobrazí chybovú hlášku s telefónom/e-mailom ako náhradným kanálom.
 export const WEB3FORMS_ACCESS_KEY = 'REPLACE_WITH_WEB3FORMS_ACCESS_KEY';

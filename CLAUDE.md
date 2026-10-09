@@ -74,7 +74,7 @@ má noindex). Plný web je nedotknutý v `src/`.
 
 ### Web3Forms (aktivácia formulára)
 1. Otvoriť https://web3forms.com → „Create your Access Key"
-2. Zadať e-mail **lubek@pcs.sk** (tam budú chodiť správy) → potvrdiť odkaz v e-maili
+2. Zadať e-mail **pilotconvoislovakia@gmail.com** (tam budú chodiť správy) → potvrdiť odkaz v e-maili
 3. Skopírovať Access Key (UUID tvar) a vložiť do `src/config.ts` namiesto
    `REPLACE_WITH_WEB3FORMS_ACCESS_KEY`, potom build + deploy
 4. Otestovať odoslaním skúšobnej správy z webu
