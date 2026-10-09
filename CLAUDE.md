@@ -54,10 +54,11 @@ Príkazy: `npm run dev` (dev server), `npm run build` (produkčný build do `dis
 ## Deploy (Cloudflare Pages)
 
 Repo: https://github.com/mtskcm/pilotconvoi — push na `main` = automatický deploy (po prepojení).
+Cloudflare účet: Mkacmar1@gmail.com (`CLOUDFLARE_ACCOUNT_ID=737080ce946b600668882e614e791512`) — wrangler vidí 2 účty, bez tejto premennej deploy zlyhá na výbere účtu.
 Nastavenie v Cloudflare dashboarde: Workers & Pages → Create → Pages → Connect to Git →
 build command `npm run build`, output `dist`, žiadne env premenné netreba.
 
-## ⚠️ MAINTENANCE MÓD (aktívny od 26.8.2026)
+## MAINTENANCE MÓD (bol aktívny 26.8.–9.10.2026, teraz beží plný web)
 
 Na žiadosť zákazníka je web dočasne nahradený stránkou „Pripravujeme" (`maintenance/` priečinok,
 má noindex). Plný web je nedotknutý v `src/`.
