@@ -1,13 +1,12 @@
 {
   "meta": {
     "title": "Pilot Convoi Slovakia — pilotaż transportów ponadgabarytowych | NONSTOP 24/7",
-    "description": "Profesjonalny pilotaż transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w całej UE. Załatwianie zezwoleń SK/CZ, planowanie tras. NONSTOP 24/7 — +421 907 450 919."
+    "description": "Profesjonalny pilotaż transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w Czechach. Załatwianie zezwoleń SK/CZ, planowanie tras. NONSTOP 24/7 — +421 907 450 919."
   },
   "nav": {
     "home": "Start",
     "services": "Usługi",
     "about": "O nas",
-    "routes": "Trasy",
     "gallery": "Galeria",
     "contact": "Kontakt",
     "language": "Język",
@@ -17,11 +16,11 @@
     "eyebrow": "Safe. Reliable. Professional.",
     "titleTop": "Pilotaż transportów",
     "titleAccent": "ponadgabarytowych",
-    "subtitle": "Pojazdy pilotujące dla transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w całej UE. Zapewniamy płynny, bezpieczny i zgodny z przepisami przejazd Twojego ładunku.",
+    "subtitle": "Pilotaż transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w Czechach. Załatwimy wszystkie niezbędne zezwolenia i zapewnimy płynny przejazd Twojego ładunku — bezpiecznie i zgodnie z obowiązującymi przepisami.",
     "ctaCall": "Zadzwoń teraz",
     "ctaWrite": "Napisz do nas",
     "badge247": "NONSTOP 24/7",
-    "badgeEu": "Słowacja + cała UE",
+    "badgeEu": "Słowacja + Czechy",
     "badgePermits": "Zezwolenia SK / CZ",
     "scroll": "Przewiń w dół"
   },
@@ -31,7 +30,7 @@
     "items": [
       {
         "title": "Pilotaż pojazdów ponadgabarytowych",
-        "text": "Profesjonalne pojazdy pilotujące dla transportów ponadgabarytowych i ponadnormatywnych na Słowacji, w Czechach i w całej UE. Bezpiecznie, niezawodnie i zgodnie z przepisami."
+        "text": "Profesjonalne pojazdy pilotujące dla transportów ponadgabarytowych i ponadnormatywnych na Słowacji i w Czechach. Bezpiecznie, niezawodnie i zgodnie z przepisami."
       },
       {
         "title": "Załatwianie zezwoleń (SK / CZ)",
@@ -45,24 +44,12 @@
   },
   "about": {
     "title": "O nas",
-    "text1": "Pilot Convoi Slovakia specjalizuje się w pilotażu transportów ponadgabarytowych i ponadnormatywnych. Nasi doświadczeni i niezawodni piloci zapewnią bezpieczną i płynną jazdę Twoich pojazdów — jesteśmy partnerem, na którym przewoźnicy zawsze mogą polegać.",
-    "text2": "Stawiamy na precyzję, profesjonalizm i indywidualne podejście do każdego klienta. Każdy transport przygotowujemy z wyprzedzeniem — od trasy przez zezwolenia aż po sam przejazd.",
+    "text": "Pilot Convoi Slovakia specjalizuje się w pilotażu transportów ponadgabarytowych i ponadnormatywnych. Załatwimy wszystkie niezbędne zezwolenia, a nasi doświadczeni piloci zapewnią bezpieczny i płynny przejazd Twoich pojazdów. Stawiamy na precyzję, profesjonalizm i indywidualne podejście do każdego klienta — jesteśmy partnerem, na którym przewoźnicy zawsze mogą polegać.",
     "stats": [
       { "value": "24/7", "label": "dostępność non stop" },
-      { "value": "SK + UE", "label": "obszar działania" },
+      { "value": "SK + CZ", "label": "obszar działania" },
       { "value": "SK / CZ", "label": "załatwianie zezwoleń" }
     ]
-  },
-  "routes": {
-    "title": "Gdzie jeździmy",
-    "subtitle": "Najczęstsze korytarze naszych pilotaży — od polskiej granicy na Ukrainę, do Węgier i Austrii. Jedziemy jednak wszędzie tam, gdzie potrzebuje Twój ładunek.",
-    "corridors": [
-      { "route": "Granica polska → Ukraina", "detail": "tranzyt przez całą Słowację" },
-      { "route": "Granica polska → Węgry", "detail": "przez Koszyce i południowe przejścia" },
-      { "route": "Słowacja → Austria", "detail": "kierunek Wiedeń przez Bratysławę" },
-      { "route": "Pilotaż krajowy", "detail": "wszędzie na terenie Słowacji" }
-    ],
-    "note": "Trasę i termin zawsze dostosujemy do Twojego transportu — odezwij się, a przygotujemy rozwiązanie szyte na miarę."
   },
   "gallery": {
     "title": "Galeria",

@@ -1,8 +1,8 @@
 # Pilot Convoi Slovakia — prezentačný web
 
 Single-page prezentačný web pre firmu **Pilot Convoi Slovakia** (doprovody nadrozmerných
-vozidiel — pilotné vozidlá pre nadrozmerné/nadťažké prepravy). Trasy väčšinou od poľskej
-hranice na Ukrajinu, do Maďarska a Rakúska. Web je čisto statický, hostovaný na
+vozidiel — pilotné vozidlá pre nadrozmerné/nadťažké prepravy). Web komunikuje
+pôsobnosť Slovensko + Česko (od 10/2026 bez sekcie trás a bez zmienok o EÚ). Web je čisto statický, hostovaný na
 Cloudflare Pages, komunikačný jazyk s klientom je slovenčina.
 
 ## Stack
@@ -30,8 +30,8 @@ Príkazy: `npm run dev` (dev server), `npm run build` (produkčný build do `dis
 - Jedna stránka, 6 jazykov: `/` = SK (default), `/en/`, `/pl/`, `/hu/`, `/de/`, `/uk/`
 - Preklady: `src/i18n/{sk,en,pl,hu,de,uk}.json` — všetky súbory majú identické kľúče,
   typ sa odvodzuje od `sk.json` (`Translation` v `src/i18n/index.ts`)
-- Stránku skladá `src/components/OnePage.astro` (Nav → Hero → Services → About → RoutesSection → Gallery → Contact → Footer)
-- Anchor ID sekcií sú jazykovo neutrálne: `#top`, `#services`, `#about`, `#routes`, `#gallery`, `#contact`
+- Stránku skladá `src/components/OnePage.astro` (Nav → Hero → Services → About → Gallery → Contact → Footer)
+- Anchor ID sekcií sú jazykovo neutrálne: `#top`, `#services`, `#about`, `#gallery`, `#contact`
 - Anchor scroll má offset 0 (hrana sekcie sadne pod fixný header — sekcia vyplní obrazovku);
   prepnutie jazyka vedie vždy na začiatok stránky (žiadne prenášanie #kotvy)
 - Firemné údaje (telefón, e-mail, adresa) sú **len** v `src/config.ts` — nikde ich nehardcoduj

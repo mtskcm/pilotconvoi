@@ -1,13 +1,12 @@
 {
   "meta": {
     "title": "Pilot Convoi Slovakia — Oversized Load Escort & Pilot Car Services | 24/7",
-    "description": "Professional pilot car escorts for oversized and heavy transports across Slovakia and the EU. SK/CZ permit handling, route planning. Available 24/7 — +421 907 450 919."
+    "description": "Professional pilot car escorts for oversized and heavy transports in Slovakia and Czechia. SK/CZ permit handling, route planning. Available 24/7 — +421 907 450 919."
   },
   "nav": {
     "home": "Home",
     "services": "Services",
     "about": "About us",
-    "routes": "Routes",
     "gallery": "Gallery",
     "contact": "Contact",
     "language": "Language",
@@ -17,11 +16,11 @@
     "eyebrow": "Safe. Reliable. Professional.",
     "titleTop": "Escort services for",
     "titleAccent": "oversized transports",
-    "subtitle": "Pilot vehicles for oversized and heavy loads across Slovakia and the entire EU. We ensure a smooth, safe and fully compliant passage for your cargo.",
+    "subtitle": "Escorts for oversized and heavy transports in Slovakia and Czechia. We arrange all the necessary permits and ensure a smooth passage for your cargo — safely and in full compliance with the law.",
     "ctaCall": "Call now",
     "ctaWrite": "Write to us",
     "badge247": "NONSTOP 24/7",
-    "badgeEu": "Slovakia + entire EU",
+    "badgeEu": "Slovakia + Czechia",
     "badgePermits": "SK / CZ permits",
     "scroll": "Scroll down"
   },
@@ -31,7 +30,7 @@
     "items": [
       {
         "title": "Oversized load escort",
-        "text": "Professional pilot vehicles for oversized and heavy transports in Slovakia, Czechia and across the EU. Safe, reliable and fully compliant with legislation."
+        "text": "Professional pilot vehicles for oversized and heavy transports in Slovakia and Czechia. Safe, reliable and fully compliant with legislation."
       },
       {
         "title": "Permit handling (SK / CZ)",
@@ -45,24 +44,12 @@
   },
   "about": {
     "title": "About us",
-    "text1": "Pilot Convoi Slovakia specialises in escorting oversized and heavy transports. Our experienced and reliable pilots ensure a safe and smooth ride for your trucks — a partner hauliers can always count on.",
-    "text2": "We put emphasis on precision, professionalism and an individual approach to every customer. Every transport is prepared in advance — from the route through permits to the passage itself.",
+    "text": "Pilot Convoi Slovakia specialises in escorting oversized and heavy transports. We arrange all the necessary permits, and our experienced pilots ensure a safe and smooth passage for your trucks. We put emphasis on precision, professionalism and an individual approach to every customer — a partner hauliers can always count on.",
     "stats": [
       { "value": "24/7", "label": "nonstop availability" },
-      { "value": "SK + EU", "label": "area of operation" },
+      { "value": "SK + CZ", "label": "area of operation" },
       { "value": "SK / CZ", "label": "permit handling" }
     ]
-  },
-  "routes": {
-    "title": "Where we drive",
-    "subtitle": "The most frequent corridors of our escorts — from the Polish border to Ukraine, Hungary and Austria. But we go wherever your cargo needs to.",
-    "corridors": [
-      { "route": "Polish border → Ukraine", "detail": "transit across all of Slovakia" },
-      { "route": "Polish border → Hungary", "detail": "via Košice and southern crossings" },
-      { "route": "Slovakia → Austria", "detail": "towards Vienna via Bratislava" },
-      { "route": "Domestic escorts", "detail": "anywhere within Slovakia" }
-    ],
-    "note": "We always adapt the route and timing to your transport — get in touch and we will prepare a tailored solution."
   },
   "gallery": {
     "title": "Gallery",

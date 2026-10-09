@@ -1,13 +1,12 @@
 {
   "meta": {
     "title": "Pilot Convoi Slovakia — túlméretes szállítmányok kísérése | NONSTOP 24/7",
-    "description": "Professzionális kísérőjárművek túlméretes és túlsúlyos szállítmányokhoz Szlovákiában és az egész EU-ban. SK/CZ engedélyek intézése, útvonaltervezés. NONSTOP 24/7 — +421 907 450 919."
+    "description": "Professzionális kísérőjárművek túlméretes és túlsúlyos szállítmányokhoz Szlovákiában és Csehországban. SK/CZ engedélyek intézése, útvonaltervezés. NONSTOP 24/7 — +421 907 450 919."
   },
   "nav": {
     "home": "Kezdőlap",
     "services": "Szolgáltatások",
     "about": "Rólunk",
-    "routes": "Útvonalak",
     "gallery": "Galéria",
     "contact": "Kapcsolat",
     "language": "Nyelv",
@@ -17,11 +16,11 @@
     "eyebrow": "Safe. Reliable. Professional.",
     "titleTop": "Túlméretes szállítmányok",
     "titleAccent": "kísérése",
-    "subtitle": "Kísérőjárművek (felvezető autók) túlméretes és túlsúlyos szállítmányokhoz Szlovákiában és az egész EU-ban. Gondoskodunk rakománya zökkenőmentes, biztonságos és előírásszerű áthaladásáról.",
+    "subtitle": "Túlméretes és túlsúlyos szállítmányok kísérése Szlovákiában és Csehországban. Elintézzük az összes szükséges engedélyt, és gondoskodunk rakománya zökkenőmentes áthaladásáról — biztonságosan és a hatályos jogszabályoknak megfelelően.",
     "ctaCall": "Hívjon most",
     "ctaWrite": "Írjon nekünk",
     "badge247": "NONSTOP 24/7",
-    "badgeEu": "Szlovákia + egész EU",
+    "badgeEu": "Szlovákia + Csehország",
     "badgePermits": "SK / CZ engedélyek",
     "scroll": "Görgessen lejjebb"
   },
@@ -31,7 +30,7 @@
     "items": [
       {
         "title": "Túlméretes szállítmányok kísérése",
-        "text": "Professzionális kísérőjárművek túlméretes és túlsúlyos szállítmányokhoz Szlovákiában, Csehországban és az egész EU-ban. Biztonságosan, megbízhatóan, a jogszabályoknak megfelelően."
+        "text": "Professzionális kísérőjárművek túlméretes és túlsúlyos szállítmányokhoz Szlovákiában és Csehországban. Biztonságosan, megbízhatóan, a jogszabályoknak megfelelően."
       },
       {
         "title": "Engedélyek intézése (SK / CZ)",
@@ -45,24 +44,12 @@
   },
   "about": {
     "title": "Rólunk",
-    "text1": "A Pilot Convoi Slovakia túlméretes és túlsúlyos szállítmányok kísérésére specializálódott. Tapasztalt és megbízható kísérőink biztonságos és zökkenőmentes utat biztosítanak járművei számára — olyan partner vagyunk, akire a fuvarozók mindig számíthatnak.",
-    "text2": "Nagy hangsúlyt fektetünk a precizitásra, a professzionalizmusra és az egyéni hozzáállásra minden ügyfélnél. Minden szállítást előre előkészítünk — az útvonaltól az engedélyeken át magáig az áthaladásig.",
+    "text": "A Pilot Convoi Slovakia túlméretes és túlsúlyos szállítmányok kísérésére specializálódott. Elintézzük az összes szükséges engedélyt, tapasztalt kísérőink pedig biztonságos és zökkenőmentes áthaladást biztosítanak járművei számára. Nagy hangsúlyt fektetünk a precizitásra, a professzionalizmusra és az egyéni hozzáállásra minden ügyfélnél — olyan partner vagyunk, akire a fuvarozók mindig számíthatnak.",
     "stats": [
       { "value": "24/7", "label": "nonstop elérhetőség" },
-      { "value": "SK + EU", "label": "működési terület" },
+      { "value": "SK + CZ", "label": "működési terület" },
       { "value": "SK / CZ", "label": "engedélyek intézése" }
     ]
-  },
-  "routes": {
-    "title": "Merre járunk",
-    "subtitle": "Kíséreteink leggyakoribb útvonalai — a lengyel határtól Ukrajnába, Magyarországra és Ausztriába. De oda megyünk, ahová a rakománya igényli.",
-    "corridors": [
-      { "route": "Lengyel határ → Ukrajna", "detail": "tranzit egész Szlovákián át" },
-      { "route": "Lengyel határ → Magyarország", "detail": "Kassán és a déli átkelőkön át" },
-      { "route": "Szlovákia → Ausztria", "detail": "Bécs irányába Pozsonyon át" },
-      { "route": "Belföldi kíséret", "detail": "bárhol Szlovákián belül" }
-    ],
-    "note": "Az útvonalat és az időpontot mindig az Ön szállítmányához igazítjuk — keressen minket, és személyre szabott megoldást készítünk."
   },
   "gallery": {
     "title": "Galéria",

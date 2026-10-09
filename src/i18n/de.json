@@ -1,13 +1,12 @@
 {
   "meta": {
     "title": "Pilot Convoi Slovakia — Begleitfahrzeuge für Schwer- und Großraumtransporte | 24/7",
-    "description": "Professionelle Begleitfahrzeuge (Pilotfahrzeuge) für Großraum- und Schwertransporte in der Slowakei und der ganzen EU. Genehmigungen SK/CZ, Routenplanung. Rund um die Uhr — +421 907 450 919."
+    "description": "Professionelle Begleitfahrzeuge (Pilotfahrzeuge) für Großraum- und Schwertransporte in der Slowakei und in Tschechien. Genehmigungen SK/CZ, Routenplanung. Rund um die Uhr — +421 907 450 919."
   },
   "nav": {
     "home": "Start",
     "services": "Leistungen",
     "about": "Über uns",
-    "routes": "Routen",
     "gallery": "Galerie",
     "contact": "Kontakt",
     "language": "Sprache",
@@ -17,11 +16,11 @@
     "eyebrow": "Safe. Reliable. Professional.",
     "titleTop": "Begleitfahrzeuge für",
     "titleAccent": "Großraum- und Schwertransporte",
-    "subtitle": "Pilotfahrzeuge für Großraum- und Schwertransporte in der Slowakei und der gesamten EU. Wir sorgen für eine reibungslose, sichere und vorschriftsmäßige Durchfahrt Ihrer Ladung.",
+    "subtitle": "Begleitung von Großraum- und Schwertransporten in der Slowakei und in Tschechien. Wir besorgen alle erforderlichen Genehmigungen und sorgen für eine reibungslose Durchfahrt Ihrer Ladung — sicher und im Einklang mit den geltenden Vorschriften.",
     "ctaCall": "Jetzt anrufen",
     "ctaWrite": "Schreiben Sie uns",
     "badge247": "NONSTOP 24/7",
-    "badgeEu": "Slowakei + ganze EU",
+    "badgeEu": "Slowakei + Tschechien",
     "badgePermits": "Genehmigungen SK / CZ",
     "scroll": "Nach unten scrollen"
   },
@@ -31,7 +30,7 @@
     "items": [
       {
         "title": "Begleitung von Sondertransporten",
-        "text": "Professionelle Begleitfahrzeuge für Großraum- und Schwertransporte in der Slowakei, Tschechien und der gesamten EU. Sicher, zuverlässig und gesetzeskonform."
+        "text": "Professionelle Begleitfahrzeuge für Großraum- und Schwertransporte in der Slowakei und in Tschechien. Sicher, zuverlässig und gesetzeskonform."
       },
       {
         "title": "Genehmigungen (SK / CZ)",
@@ -45,24 +44,12 @@
   },
   "about": {
     "title": "Über uns",
-    "text1": "Pilot Convoi Slovakia ist auf die Begleitung von Großraum- und Schwertransporten spezialisiert. Unsere erfahrenen und zuverlässigen Begleiter sorgen für eine sichere und reibungslose Fahrt Ihrer Fahrzeuge — ein Partner, auf den sich Spediteure jederzeit verlassen können.",
-    "text2": "Wir legen Wert auf Präzision, Professionalität und eine individuelle Betreuung jedes Kunden. Jeder Transport wird im Voraus vorbereitet — von der Route über die Genehmigungen bis zur Durchfahrt selbst.",
+    "text": "Pilot Convoi Slovakia ist auf die Begleitung von Großraum- und Schwertransporten spezialisiert. Wir besorgen alle erforderlichen Genehmigungen, und unsere erfahrenen Begleiter sorgen für eine sichere und reibungslose Fahrt Ihrer Fahrzeuge. Wir legen Wert auf Präzision, Professionalität und eine individuelle Betreuung jedes Kunden — ein Partner, auf den sich Spediteure jederzeit verlassen können.",
     "stats": [
       { "value": "24/7", "label": "nonstop erreichbar" },
-      { "value": "SK + EU", "label": "Einsatzgebiet" },
+      { "value": "SK + CZ", "label": "Einsatzgebiet" },
       { "value": "SK / CZ", "label": "Genehmigungen" }
     ]
-  },
-  "routes": {
-    "title": "Wo wir fahren",
-    "subtitle": "Die häufigsten Korridore unserer Begleitfahrten — von der polnischen Grenze in die Ukraine, nach Ungarn und Österreich. Wir fahren aber überall dorthin, wo Ihre Ladung es braucht.",
-    "corridors": [
-      { "route": "Polnische Grenze → Ukraine", "detail": "Transit durch die ganze Slowakei" },
-      { "route": "Polnische Grenze → Ungarn", "detail": "über Košice und südliche Übergänge" },
-      { "route": "Slowakei → Österreich", "detail": "Richtung Wien über Bratislava" },
-      { "route": "Inlandsbegleitungen", "detail": "überall innerhalb der Slowakei" }
-    ],
-    "note": "Route und Termin passen wir stets Ihrem Transport an — melden Sie sich und wir erstellen eine maßgeschneiderte Lösung."
   },
   "gallery": {
     "title": "Galerie",
